@@ -1,0 +1,113 @@
+
+
+-----------------------------------
+New Analysis started.
+Date and time: 20/10/2020 20:56:04
+New results follow.
+-----------------------------------
+
+RSiena version 1.2-12 (12 May 18)
+
+
+@1
+Estimation by stochastic approximation algorithm.
+=================================================
+
+Random initialization of random number stream.
+Current random number seed is 866439.
+Effects object used: effs 
+Model Type:
+Network 1 mnet : 
+Network 2 pnet : 
+Estimation method: unconditional moment estimation.
+
+Time duration for simulations in each period is 1.0.
+Standard errors are estimated with the likelihood ratio method.
+Dolby method (regression on scores) is used.
+Initial value of gain parameter is  1.2649111.
+Reduction factor for gain parameter is  0.5000000.
+Number of subphases in Phase 2 is 4.
+
+Initial parameter values are 
+  1. rate:  constant mnet rate (period 1)                  15.7988
+  2. rate:  constant mnet rate (period 2)                  12.3248
+  3. rate:  constant mnet rate (period 3)                  44.1567
+  4. rate:  constant mnet rate (period 4)                  21.1715
+  5. eval:  mnet: degree (density)                          0.1988
+  6. eval:  mnet: transitive triads                         0.0000
+  7. eval:  mnet: 4-cycles (1)                              0.0000
+  8. eval:  mnet: ranking ego and alt                       0.0000
+  9. eval:  mnet: ranking similarity                        0.0000
+ 10. eval:  mnet: soloshow ego and alt                      0.0000
+ 11. eval:  mnet: soloshow similarity                       0.0000
+ 12. eval:  mnet: award ego and alt                         0.0000
+ 13. eval:  mnet: award similarity                          0.0000
+ 14. eval:  mnet: meanprice ego and alt                     0.0000
+ 15. eval:  mnet: meanprice similarity                      0.0000
+ 16. eval:  mnet: festbiennal ego and alt                   0.0000
+ 17. eval:  mnet: festbiennal similarity                    0.0000
+ 18. eval:  mnet: groupshow ego and alt                     0.0000
+ 19. eval:  mnet: groupshow similarity                      0.0000
+ 20. eval:  mnet: pnet                                      0.0000
+ 21. rate:  constant pnet rate (period 1)                  47.7520
+ 22. rate:  constant pnet rate (period 2)                  48.0347
+ 23. rate:  constant pnet rate (period 3)                  27.3521
+ 24. rate:  constant pnet rate (period 4)                  37.4510
+ 25. eval:  pnet: degree (density)                          0.1930
+ 26. eval:  pnet: transitive triads                         0.0000
+ 27. eval:  pnet: 4-cycles (1)                              0.0000
+ 28. eval:  pnet: ranking ego and alt                       0.0000
+ 29. eval:  pnet: ranking similarity                        0.0000
+ 30. eval:  pnet: soloshow ego and alt                      0.0000
+ 31. eval:  pnet: soloshow similarity                       0.0000
+ 32. eval:  pnet: award ego and alt                         0.0000
+ 33. eval:  pnet: award similarity                          0.0000
+ 34. eval:  pnet: meanprice ego and alt                     0.0000
+ 35. eval:  pnet: meanprice similarity                      0.0000
+ 36. eval:  pnet: festbiennal ego and alt                   0.0000
+ 37. eval:  pnet: festbiennal similarity                    0.0000
+ 38. eval:  pnet: mnet                                      0.0000
+
+
+Observed values of target statistics are
+  1. Amount of network change in period 1                               782.0000
+  2. Amount of network change in period 2                               610.0000
+  3. Amount of network change in period 3                              2186.0000
+  4. Amount of network change in period 4                              1048.0000
+  5. mnet: Number of edges                                             9713.0000
+  6. mnet: Number of transitive triads                                 212900.0000
+  7. mnet: (Number 4-cycles)^1/1)                                      21679698.0000
+  8. mnet: 2 * sum degr. x ranking                                     -727340.7800
+  9. mnet: ranking similarity                                           604.7440
+ 10. mnet: 2 * sum degr. x soloshow                                    11104.4200
+ 11. mnet: soloshow similarity                                         -208.4402
+ 12. mnet: 2 * sum degr. x award                                        902.4900
+ 13. mnet: award similarity                                            -377.7061
+ 14. mnet: 2 * sum degr. x meanprice                                   218769.7640
+ 15. mnet: meanprice similarity                                        -134.4500
+ 16. mnet: 2 * sum degr. x festbiennal                                 4258.2000
+ 17. mnet: festbiennal similarity                                      -288.9520
+ 18. mnet: 2 * sum degr. x groupshow                                   95798.9100
+ 19. mnet: groupshow similarity                                        -382.6322
+ 20. mnet: sum crprod. with pnet                                       16528.0000
+ 21. Amount of network change in period 1                              2364.0000
+ 22. Amount of network change in period 2                              2378.0000
+ 23. Amount of network change in period 3                              1354.0000
+ 24. Amount of network change in period 4                              1854.0000
+ 25. pnet: Number of edges                                             11720.0000
+ 26. pnet: Number of transitive triads                                 253291.0000
+ 27. pnet: (Number 4-cycles)^1/1)                                      26958880.0000
+ 28. pnet: 2 * sum degr. x ranking                                     -350447.2000
+ 29. pnet: ranking similarity                                           174.1498
+ 30. pnet: 2 * sum degr. x soloshow                                    5550.8000
+ 31. pnet: soloshow similarity                                          -34.1989
+ 32. pnet: 2 * sum degr. x award                                        775.6000
+ 33. pnet: award similarity                                            -285.0929
+ 34. pnet: 2 * sum degr. x meanprice                                   232192.7600
+ 35. pnet: meanprice similarity                                        -162.0661
+ 36. pnet: 2 * sum degr. x festbiennal                                 1630.0000
+ 37. pnet: festbiennal similarity                                      -152.0255
+ 38. pnet: sum crprod. with mnet                                       14210.0000
+
+ 38 parameters, 38 statistics
+

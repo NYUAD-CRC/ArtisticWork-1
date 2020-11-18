@@ -1,0 +1,623 @@
+
+
+-----------------------------------
+New Analysis started.
+Date and time: 12/11/2020 20:53:20
+New results follow.
+-----------------------------------
+
+RSiena version 1.2-23 (12 Jan 20)
+
+
+@1
+Estimation by stochastic approximation algorithm.
+=================================================
+
+Random initialization of random number stream.
+Current random number seed is 936070.
+Effects object used: effs 
+Model Type:
+Network 1 mnet : 
+Network 2 pnet : 
+Estimation method: unconditional moment estimation.
+
+Time duration for simulations in each period is 1.0.
+Standard errors are estimated with the likelihood ratio method.
+Dolby method (regression on scores) is used.
+Initial value of gain parameter is  1.1313708.
+Reduction factor for gain parameter is  0.5000000.
+Number of subphases in Phase 2 is 4.
+
+Initial parameter values are 
+  1. rate:  constant mnet rate (period 1)                  15.7988
+  2. rate:  constant mnet rate (period 2)                  12.3248
+  3. rate:  constant mnet rate (period 3)                  44.1567
+  4. rate:  constant mnet rate (period 4)                  21.1715
+  5. eval:  mnet: degree (density)                          0.1988
+  6. eval:  mnet: ranking ego and alt                       0.0000
+  7. eval:  mnet: ranking similarity                        0.0000
+  8. eval:  mnet: soloshow ego and alt                      0.0000
+  9. eval:  mnet: soloshow similarity                       0.0000
+ 10. eval:  mnet: award ego and alt                         0.0000
+ 11. eval:  mnet: award similarity                          0.0000
+ 12. eval:  mnet: meanprice ego and alt                     0.0000
+ 13. eval:  mnet: meanprice similarity                      0.0000
+ 14. eval:  mnet: festbiennal ego and alt                   0.0000
+ 15. eval:  mnet: festbiennal similarity                    0.0000
+ 16. eval:  mnet: groupshow ego and alt                     0.0000
+ 17. eval:  mnet: groupshow similarity                      0.0000
+ 18. eval:  mnet: pnet                                      0.0000
+ 19. rate:  constant pnet rate (period 1)                  47.7520
+ 20. rate:  constant pnet rate (period 2)                  48.0347
+ 21. rate:  constant pnet rate (period 3)                  27.3521
+ 22. rate:  constant pnet rate (period 4)                  37.4510
+ 23. eval:  pnet: degree (density)                          0.1930
+ 24. eval:  pnet: ranking ego and alt                       0.0000
+ 25. eval:  pnet: ranking similarity                        0.0000
+ 26. eval:  pnet: soloshow ego and alt                      0.0000
+ 27. eval:  pnet: soloshow similarity                       0.0000
+ 28. eval:  pnet: award ego and alt                         0.0000
+ 29. eval:  pnet: award similarity                          0.0000
+ 30. eval:  pnet: meanprice ego and alt                     0.0000
+ 31. eval:  pnet: meanprice similarity                      0.0000
+ 32. eval:  pnet: festbiennal ego and alt                   0.0000
+ 33. eval:  pnet: festbiennal similarity                    0.0000
+ 34. eval:  pnet: mnet                                      0.0000
+
+
+Observed values of target statistics are
+  1. Amount of network change in period 1                               782.0000
+  2. Amount of network change in period 2                               610.0000
+  3. Amount of network change in period 3                              2186.0000
+  4. Amount of network change in period 4                              1048.0000
+  5. mnet: Number of edges                                             9713.0000
+  6. mnet: 2 * sum degr. x ranking                                     -727340.7800
+  7. mnet: ranking similarity                                           604.7440
+  8. mnet: 2 * sum degr. x soloshow                                    11104.4200
+  9. mnet: soloshow similarity                                         -208.4402
+ 10. mnet: 2 * sum degr. x award                                        902.4900
+ 11. mnet: award similarity                                            -377.7061
+ 12. mnet: 2 * sum degr. x meanprice                                   218769.7640
+ 13. mnet: meanprice similarity                                        -134.4500
+ 14. mnet: 2 * sum degr. x festbiennal                                 4258.2000
+ 15. mnet: festbiennal similarity                                      -288.9520
+ 16. mnet: 2 * sum degr. x groupshow                                   95798.9100
+ 17. mnet: groupshow similarity                                        -382.6322
+ 18. mnet: sum crprod. with pnet                                       16528.0000
+ 19. Amount of network change in period 1                              2364.0000
+ 20. Amount of network change in period 2                              2378.0000
+ 21. Amount of network change in period 3                              1354.0000
+ 22. Amount of network change in period 4                              1854.0000
+ 23. pnet: Number of edges                                             11720.0000
+ 24. pnet: 2 * sum degr. x ranking                                     -350447.2000
+ 25. pnet: ranking similarity                                           174.1498
+ 26. pnet: 2 * sum degr. x soloshow                                    5550.8000
+ 27. pnet: soloshow similarity                                          -34.1989
+ 28. pnet: 2 * sum degr. x award                                        775.6000
+ 29. pnet: award similarity                                            -285.0929
+ 30. pnet: 2 * sum degr. x meanprice                                   232192.7600
+ 31. pnet: meanprice similarity                                        -162.0661
+ 32. pnet: 2 * sum degr. x festbiennal                                 1630.0000
+ 33. pnet: festbiennal similarity                                      -152.0255
+ 34. pnet: sum crprod. with mnet                                       14210.0000
+
+ 34 parameters, 34 statistics
+
+Estimation of derivatives by the LR method (type 1).
+
+
+@2
+End of stochastic approximation algorithm, phase 3.
+---------------------------------------------------
+
+Total of 2470 iterations.
+Parameter estimates based on 1446 iterations,
+convergence diagnostics, covariance and derivative matrices based on 1024 iterations.
+
+Information for convergence diagnosis.
+Averages, standard deviations, and t-ratios for deviations from targets:
+  1.   -1.9922    38.5056  -0.0517 
+  2.    0.9121    35.1682   0.0259 
+  3.   -3.7383    59.6948  -0.0626 
+  4.   -0.5762    42.1672  -0.0137 
+  5.    0.1523    41.7854   0.0036 
+  6. -213.5892  9786.5482  -0.0218 
+  7.   -0.1678    12.8015  -0.0131 
+  8.    7.4776   302.5181   0.0247 
+  9.    0.0702    14.8683   0.0047 
+ 10.   -0.5470    61.9159  -0.0088 
+ 11.    0.1718    25.2288   0.0068 
+ 12.   23.7771 11434.1536   0.0021 
+ 13.    0.0518     9.7011   0.0053 
+ 14.   -5.4293   134.8355  -0.0403 
+ 15.   -0.0006    11.0031  -0.0001 
+ 16.   31.4657  1278.1020   0.0246 
+ 17.   -0.3638    13.7315  -0.0265 
+ 18.   -2.1816    68.8875  -0.0317 
+ 19.   -1.3242    57.4926  -0.0230 
+ 20.    0.2773    56.9716   0.0049 
+ 21.    2.7754    46.4411   0.0598 
+ 22.   -2.6543    53.0037  -0.0501 
+ 23.    1.1270    54.9598   0.0205 
+ 24. -654.8586 13724.4172  -0.0477 
+ 25.    0.0595    16.6555   0.0036 
+ 26.   19.6546   402.8297   0.0488 
+ 27.   -0.9252    20.3013  -0.0456 
+ 28.    3.9672    85.9824   0.0461 
+ 29.   -0.9346    34.0243  -0.0275 
+ 30. -192.4952 12500.4591  -0.0154 
+ 31.    0.2652    10.3607   0.0256 
+ 32.    2.0191   187.9661   0.0107 
+ 33.   -0.7128    14.9262  -0.0478 
+ 34.    4.5547    67.0858   0.0679 
+
+Good convergence is indicated by the t-ratios being close to zero.
+
+Overall maximum convergence ratio =  0.2191 .
+
+
+
+@2
+Estimation Results.
+-------------------
+
+Regular end of estimation algorithm.
+Total of 2470 iteration steps.
+
+
+@3
+Estimates and standard errors
+                             
+ 1. rate:  constant mnet rate (period 1)                           4.1867  (   0.2401)
+ 2. rate:  constant mnet rate (period 2)                           3.2082  (   0.1845)
+ 3. rate:  constant mnet rate (period 3)                          13.1250  (   0.9808)
+ 4. rate:  constant mnet rate (period 4)                           5.8719  (   0.3380)
+ 5. eval:  mnet: degree (density)                                 -2.2865  (   0.5182)
+ 6. eval:  mnet: ranking ego and alt                              -0.0025  (   0.0004)
+ 7. eval:  mnet: ranking similarity                                0.5143  (   0.2785)
+ 8. eval:  mnet: soloshow ego and alt                              0.0131  (   0.0088)
+ 9. eval:  mnet: soloshow similarity                              -0.5498  (   0.1785)
+10. eval:  mnet: award ego and alt                                -0.2589  (   0.0652)
+11. eval:  mnet: award similarity                                 -0.1216  (   0.1283)
+12. eval:  mnet: meanprice ego and alt                            -0.0018  (   0.0006)
+13. eval:  mnet: meanprice similarity                             -1.3953  (   0.7102)
+14. eval:  mnet: festbiennal ego and alt                           0.0986  (   0.0316)
+15. eval:  mnet: festbiennal similarity                            0.7412  (   0.3620)
+16. eval:  mnet: groupshow ego and alt                             0.0311  (   0.0030)
+17. eval:  mnet: groupshow similarity                              0.2821  (   0.2031)
+18. eval:  mnet: pnet                                              4.1984  (   0.9105)
+19. rate:  constant pnet rate (period 1)                          18.4612  (   0.8048)
+20. rate:  constant pnet rate (period 2)                          17.7845  (   0.6733)
+21. rate:  constant pnet rate (period 3)                           8.4776  (   0.3831)
+22. rate:  constant pnet rate (period 4)                          14.9924  (   0.6337)
+23. eval:  pnet: degree (density)                                 -0.1798  (   0.0236)
+24. eval:  pnet: ranking ego and alt                              -0.0008  (   0.0002)
+25. eval:  pnet: ranking similarity                               -0.7903  (   0.1313)
+26. eval:  pnet: soloshow ego and alt                              0.0156  (   0.0044)
+27. eval:  pnet: soloshow similarity                               0.3051  (   0.0900)
+28. eval:  pnet: award ego and alt                                 0.0438  (   0.0279)
+29. eval:  pnet: award similarity                                  0.0370  (   0.0681)
+30. eval:  pnet: meanprice ego and alt                             0.0007  (   0.0004)
+31. eval:  pnet: meanprice similarity                             -0.0039  (   0.5082)
+32. eval:  pnet: festbiennal ego and alt                          -0.1098  (   0.0166)
+33. eval:  pnet: festbiennal similarity                           -0.9655  (   0.1902)
+34. eval:  pnet: mnet                                              0.9610  (   0.0400)
+
+
+@3
+Covariance matrices
+                   
+Covariance matrix of estimates (correlations below diagonal):
+     0.058      0.003      0.092      0.020      0.052      0.000     -0.004      0.000      0.009      0.004      0.005      0.000      0.012     -0.001     -0.016      0.000      0.003     -0.093      0.000     -0.006      0.008     -0.004      0.000      0.000     -0.001      0.000     -0.003      0.000      0.002      0.000      0.004      0.000     -0.001      0.000
+     0.062      0.034      0.036      0.008      0.019      0.000     -0.003      0.000      0.004      0.001      0.001      0.000      0.011      0.000     -0.005      0.000      0.001     -0.034      0.004     -0.006      0.002     -0.009      0.000      0.000      0.000      0.000     -0.001      0.000      0.001      0.000     -0.002      0.000     -0.003      0.000
+     0.389      0.199      0.962      0.164      0.450      0.000     -0.051      0.000      0.072      0.035      0.041      0.000      0.047     -0.012     -0.128     -0.002      0.023     -0.796     -0.004     -0.068      0.049     -0.077     -0.001      0.000     -0.003      0.000     -0.029      0.000      0.016      0.000      0.061     -0.002     -0.022      0.002
+     0.252      0.127      0.494      0.114      0.099      0.000     -0.008      0.000      0.017      0.007      0.008      0.000      0.020     -0.003     -0.033      0.000      0.002     -0.175      0.002     -0.010      0.009     -0.002      0.000      0.000      0.000      0.000     -0.006     -0.001      0.002      0.000      0.012      0.000     -0.005      0.001
+     0.420      0.195      0.885      0.563      0.269      0.000     -0.029      0.000      0.044      0.020      0.023      0.000      0.032     -0.007     -0.077     -0.001      0.011     -0.471      0.014     -0.034      0.031     -0.039     -0.001      0.000     -0.002      0.000     -0.016      0.000      0.008      0.000      0.042     -0.001     -0.012      0.002
+     0.152      0.063      0.274      0.175      0.326      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000
+    -0.056     -0.056     -0.186     -0.081     -0.199      0.544      0.078      0.000     -0.008     -0.003     -0.003      0.000     -0.007      0.000      0.008      0.000     -0.015      0.051      0.001      0.006     -0.001      0.011      0.000      0.000      0.001      0.000      0.002      0.000     -0.001      0.000     -0.001      0.000      0.000      0.000
+     0.032      0.010     -0.045      0.000     -0.029     -0.044     -0.011      0.000      0.001      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000
+     0.204      0.116      0.413      0.285      0.472      0.064     -0.158      0.332      0.032      0.003      0.003      0.000      0.004     -0.002     -0.016      0.000     -0.004     -0.077      0.003     -0.007      0.004     -0.006      0.000      0.000      0.000      0.000     -0.003      0.000      0.001      0.000      0.007      0.000     -0.004      0.000
+     0.274      0.091      0.553      0.325      0.588      0.134     -0.159     -0.072      0.217      0.004      0.006      0.000      0.003      0.000     -0.005      0.000      0.002     -0.035      0.002     -0.005      0.003     -0.002      0.000      0.000      0.000      0.000     -0.002      0.000      0.001      0.000      0.003      0.000     -0.001      0.000
+     0.157      0.054      0.328      0.188      0.346      0.127     -0.087     -0.068      0.121      0.728      0.016      0.000      0.002     -0.001     -0.005      0.000      0.000     -0.041      0.001     -0.009      0.005     -0.002      0.000      0.000      0.000      0.000     -0.002      0.000      0.000      0.000      0.003      0.000     -0.001      0.000
+     0.149      0.129      0.225      0.171      0.256      0.069     -0.106      0.017      0.104      0.147      0.066      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000
+     0.071      0.084      0.067      0.081      0.086      0.038     -0.036      0.017      0.035      0.058      0.024      0.927      0.504     -0.002     -0.008      0.000     -0.015     -0.056      0.020      0.023      0.027     -0.011      0.000      0.000     -0.003      0.000     -0.002     -0.001      0.001      0.000     -0.013      0.000     -0.004     -0.001
+    -0.194     -0.072     -0.379     -0.263     -0.425     -0.135      0.054     -0.027     -0.267     -0.216     -0.136     -0.170     -0.080      0.001      0.010      0.000      0.000      0.012     -0.002      0.001     -0.002      0.002      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000     -0.002      0.000      0.000      0.000
+    -0.189     -0.080     -0.360     -0.268     -0.411     -0.119      0.079      0.028     -0.252     -0.203     -0.104     -0.126     -0.033      0.833      0.131      0.000     -0.003      0.136     -0.015      0.014     -0.015      0.023      0.000      0.000      0.002      0.000      0.005      0.001     -0.001      0.000     -0.019      0.000     -0.001      0.000
+    -0.284     -0.155     -0.596     -0.434     -0.703     -0.270      0.098     -0.267     -0.423     -0.459     -0.206     -0.315     -0.157      0.205      0.242      0.000      0.000      0.002      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000
+     0.066      0.017      0.116      0.030      0.100     -0.317     -0.270     -0.153     -0.122      0.142      0.011     -0.059     -0.105     -0.042     -0.046      0.068      0.041     -0.018      0.001     -0.009      0.001     -0.011      0.000      0.000      0.001      0.000     -0.003      0.000      0.001      0.000     -0.002      0.000      0.002      0.000
+    -0.424     -0.201     -0.891     -0.569     -0.997     -0.316      0.202      0.031     -0.472     -0.591     -0.350     -0.259     -0.086      0.424      0.414      0.703     -0.100      0.829     -0.021      0.061     -0.054      0.066      0.002      0.000      0.004      0.000      0.028      0.001     -0.015      0.000     -0.073      0.002      0.022     -0.003
+    -0.001      0.026     -0.005      0.009      0.033      0.018      0.005     -0.014      0.023      0.036      0.008      0.028      0.035     -0.082     -0.053      0.003      0.004     -0.029      0.648      0.000      0.012     -0.004     -0.002      0.000     -0.002      0.000     -0.001     -0.002     -0.004      0.000      0.027      0.001      0.014      0.002
+    -0.038     -0.047     -0.104     -0.045     -0.097      0.035      0.030      0.049     -0.062     -0.119     -0.100      0.012      0.048      0.054      0.057      0.050     -0.063      0.100      0.000      0.453     -0.008      0.028      0.000      0.000      0.001      0.000      0.000     -0.001     -0.001      0.000      0.004     -0.001     -0.003     -0.001
+     0.085      0.034      0.132      0.071      0.155      0.022     -0.009     -0.003      0.054      0.102      0.110      0.119      0.098     -0.142     -0.106     -0.132      0.010     -0.156      0.038     -0.029      0.147     -0.006      0.000      0.000      0.002      0.000     -0.004      0.000      0.001      0.000      0.001      0.000      0.000      0.001
+    -0.028     -0.077     -0.124     -0.010     -0.118     -0.011      0.065      0.009     -0.052     -0.055     -0.029     -0.049     -0.024      0.099      0.099      0.070     -0.083      0.115     -0.008      0.066     -0.024      0.402      0.000      0.000     -0.002      0.000      0.004      0.001      0.001      0.000      0.007      0.000     -0.002      0.003
+     0.010      0.003     -0.051     -0.037     -0.078     -0.017      0.013      0.002      0.015     -0.017     -0.012      0.005      0.016      0.017      0.017      0.057     -0.048      0.079     -0.092      0.023     -0.036     -0.015      0.001      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000     -0.001
+     0.037      0.032      0.089      0.051      0.100      0.008     -0.030     -0.046      0.022      0.030      0.048      0.019      0.018     -0.032     -0.031     -0.038      0.062     -0.097     -0.015     -0.011      0.071     -0.042     -0.156      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000
+    -0.043      0.005     -0.022      0.006     -0.031      0.011      0.023     -0.047      0.002     -0.039      0.019     -0.031     -0.028      0.046      0.037      0.051      0.039      0.034     -0.021      0.014      0.037     -0.022      0.027      0.669      0.017      0.000     -0.002      0.000      0.000      0.000     -0.008      0.000      0.000      0.000
+    -0.058     -0.051     -0.102     -0.038     -0.106     -0.045      0.008     -0.008     -0.055     -0.068     -0.039     -0.013      0.011      0.051      0.032      0.059     -0.005      0.104      0.004      0.021     -0.043     -0.069      0.120     -0.139     -0.149      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000
+    -0.153     -0.057     -0.329     -0.210     -0.344     -0.074      0.097      0.067     -0.172     -0.273     -0.148     -0.106     -0.033      0.152      0.141      0.243     -0.144      0.344     -0.010     -0.007     -0.118      0.063      0.057     -0.209     -0.157      0.406      0.008      0.000     -0.001      0.000     -0.005      0.000      0.000      0.000
+    -0.040      0.025      0.003     -0.068     -0.022      0.025      0.024     -0.053      0.006     -0.048     -0.022     -0.032     -0.032      0.071      0.055      0.020     -0.013      0.023     -0.108     -0.040     -0.028      0.035     -0.020      0.007      0.050     -0.081      0.006      0.001      0.001      0.000     -0.002      0.000      0.000      0.000
+     0.097      0.058      0.236      0.070      0.231      0.065     -0.041     -0.057      0.103      0.145      0.055      0.065      0.016     -0.051     -0.052     -0.150      0.064     -0.234     -0.081     -0.018      0.028      0.013     -0.072      0.046      0.016     -0.083     -0.123      0.702      0.005      0.000      0.000      0.000     -0.001      0.000
+     0.013     -0.023      0.073      0.044      0.109      0.054      0.018     -0.019      0.045      0.072      0.022      0.003     -0.031     -0.081     -0.091     -0.064     -0.025     -0.108      0.074      0.023     -0.002      0.014     -0.006     -0.026     -0.129     -0.118     -0.081     -0.144     -0.026      0.000      0.000      0.000      0.000      0.000
+     0.033     -0.016      0.121      0.071      0.159      0.060     -0.004     -0.017      0.075      0.093      0.041      0.008     -0.035     -0.096     -0.106     -0.100     -0.016     -0.157      0.065      0.011      0.006      0.021     -0.037     -0.020     -0.113     -0.120     -0.099     -0.115     -0.006      0.952      0.258      0.000     -0.004      0.001
+    -0.010     -0.058     -0.101     -0.075     -0.108     -0.049     -0.007     -0.060     -0.086     -0.063     -0.069     -0.040     -0.033      0.016     -0.018      0.096      0.053      0.112      0.055     -0.047      0.016     -0.024      0.091     -0.022      0.006     -0.136     -0.048      0.003     -0.060     -0.055     -0.034      0.000      0.003      0.000
+    -0.014     -0.085     -0.117     -0.079     -0.124     -0.046     -0.002     -0.020     -0.103     -0.078     -0.051     -0.037     -0.030      0.014     -0.022      0.109      0.048      0.127      0.092     -0.025     -0.005     -0.015      0.001      0.015      0.005     -0.049     -0.019     -0.019     -0.071     -0.051     -0.041      0.830      0.036      0.000
+     0.005     -0.010      0.040      0.052      0.074      0.012     -0.021      0.026      0.003      0.014      0.010     -0.008     -0.023     -0.009      0.022     -0.059     -0.011     -0.079      0.062     -0.035      0.037      0.100     -0.750      0.184     -0.070     -0.139     -0.037     -0.009      0.062      0.005      0.025     -0.109     -0.008      0.002
+
+Derivative matrix of expected statistics X by parameters and
+covariance/correlation matrix of X can be found using
+summary(ans) within R, or by using the 'verbose' option in Siena07.
+ 
+Total computation time 2011.84 seconds.
+
+
+-----------------------------------
+New Analysis started.
+Date and time: 13/11/2020 21:44:34
+New results follow.
+-----------------------------------
+
+RSiena version 1.2-23 (12 Jan 20)
+
+
+@1
+Estimation by stochastic approximation algorithm.
+=================================================
+
+Random initialization of random number stream.
+Current random number seed is 542644.
+Effects object used: effs 
+Model Type:
+Network 1 mnet : 
+Network 2 pnet : 
+Estimation method: unconditional moment estimation.
+
+Time duration for simulations in each period is 1.0.
+Standard errors are estimated with the likelihood ratio method.
+Dolby method (regression on scores) is used.
+Initial value of gain parameter is  1.1313708.
+Reduction factor for gain parameter is  0.5000000.
+Number of subphases in Phase 2 is 4.
+
+Initial parameter values are 
+  1. rate:  constant mnet rate (period 1)                  15.7988
+  2. rate:  constant mnet rate (period 2)                  12.3248
+  3. rate:  constant mnet rate (period 3)                  44.1567
+  4. rate:  constant mnet rate (period 4)                  21.1715
+  5. eval:  mnet: degree (density)                          0.1988
+  6. eval:  mnet: transitive triads                         0.0000
+  7. eval:  mnet: ranking ego and alt                       0.0000
+  8. eval:  mnet: ranking similarity                        0.0000
+  9. eval:  mnet: soloshow ego and alt                      0.0000
+ 10. eval:  mnet: soloshow similarity                       0.0000
+ 11. eval:  mnet: award ego and alt                         0.0000
+ 12. eval:  mnet: award similarity                          0.0000
+ 13. eval:  mnet: meanprice ego and alt                     0.0000
+ 14. eval:  mnet: meanprice similarity                      0.0000
+ 15. eval:  mnet: festbiennal ego and alt                   0.0000
+ 16. eval:  mnet: festbiennal similarity                    0.0000
+ 17. eval:  mnet: groupshow ego and alt                     0.0000
+ 18. eval:  mnet: groupshow similarity                      0.0000
+ 19. eval:  mnet: pnet                                      0.0000
+ 20. rate:  constant pnet rate (period 1)                  47.7520
+ 21. rate:  constant pnet rate (period 2)                  48.0347
+ 22. rate:  constant pnet rate (period 3)                  27.3521
+ 23. rate:  constant pnet rate (period 4)                  37.4510
+ 24. eval:  pnet: degree (density)                          0.1930
+ 25. eval:  pnet: transitive triads                         0.0000
+ 26. eval:  pnet: ranking ego and alt                       0.0000
+ 27. eval:  pnet: ranking similarity                        0.0000
+ 28. eval:  pnet: soloshow ego and alt                      0.0000
+ 29. eval:  pnet: soloshow similarity                       0.0000
+ 30. eval:  pnet: award ego and alt                         0.0000
+ 31. eval:  pnet: award similarity                          0.0000
+ 32. eval:  pnet: meanprice ego and alt                     0.0000
+ 33. eval:  pnet: meanprice similarity                      0.0000
+ 34. eval:  pnet: festbiennal ego and alt                   0.0000
+ 35. eval:  pnet: festbiennal similarity                    0.0000
+ 36. eval:  pnet: mnet                                      0.0000
+
+
+Observed values of target statistics are
+  1. Amount of network change in period 1                               782.0000
+  2. Amount of network change in period 2                               610.0000
+  3. Amount of network change in period 3                              2186.0000
+  4. Amount of network change in period 4                              1048.0000
+  5. mnet: Number of edges                                             9713.0000
+  6. mnet: Number of transitive triads                                 212900.0000
+  7. mnet: 2 * sum degr. x ranking                                     -727340.7800
+  8. mnet: ranking similarity                                           604.7440
+  9. mnet: 2 * sum degr. x soloshow                                    11104.4200
+ 10. mnet: soloshow similarity                                         -208.4402
+ 11. mnet: 2 * sum degr. x award                                        902.4900
+ 12. mnet: award similarity                                            -377.7061
+ 13. mnet: 2 * sum degr. x meanprice                                   218769.7640
+ 14. mnet: meanprice similarity                                        -134.4500
+ 15. mnet: 2 * sum degr. x festbiennal                                 4258.2000
+ 16. mnet: festbiennal similarity                                      -288.9520
+ 17. mnet: 2 * sum degr. x groupshow                                   95798.9100
+ 18. mnet: groupshow similarity                                        -382.6322
+ 19. mnet: sum crprod. with pnet                                       16528.0000
+ 20. Amount of network change in period 1                              2364.0000
+ 21. Amount of network change in period 2                              2378.0000
+ 22. Amount of network change in period 3                              1354.0000
+ 23. Amount of network change in period 4                              1854.0000
+ 24. pnet: Number of edges                                             11720.0000
+ 25. pnet: Number of transitive triads                                 253291.0000
+ 26. pnet: 2 * sum degr. x ranking                                     -350447.2000
+ 27. pnet: ranking similarity                                           174.1498
+ 28. pnet: 2 * sum degr. x soloshow                                    5550.8000
+ 29. pnet: soloshow similarity                                          -34.1989
+ 30. pnet: 2 * sum degr. x award                                        775.6000
+ 31. pnet: award similarity                                            -285.0929
+ 32. pnet: 2 * sum degr. x meanprice                                   232192.7600
+ 33. pnet: meanprice similarity                                        -162.0661
+ 34. pnet: 2 * sum degr. x festbiennal                                 1630.0000
+ 35. pnet: festbiennal similarity                                      -152.0255
+ 36. pnet: sum crprod. with mnet                                       14210.0000
+
+ 36 parameters, 36 statistics
+
+Estimation of derivatives by the LR method (type 1).
+
+
+
+-----------------------------------
+New Analysis started.
+Date and time: 15/11/2020 07:34:07
+New results follow.
+-----------------------------------
+
+RSiena version 1.2-23 (12 Jan 20)
+
+
+@1
+Estimation by stochastic approximation algorithm.
+=================================================
+
+Random initialization of random number stream.
+Current random number seed is 106004.
+Effects object used: effs 
+Model Type:
+Network 1 mnet : 
+Network 2 pnet : 
+Estimation method: unconditional moment estimation.
+
+Time duration for simulations in each period is 1.0.
+Standard errors are estimated with the likelihood ratio method.
+Dolby method (regression on scores) is used.
+Initial value of gain parameter is  1.1313708.
+Reduction factor for gain parameter is  0.5000000.
+Number of subphases in Phase 2 is 4.
+
+Initial parameter values are 
+  1. rate:  constant mnet rate (period 1)                  15.7988
+  2. rate:  constant mnet rate (period 2)                  12.3248
+  3. rate:  constant mnet rate (period 3)                  44.1567
+  4. rate:  constant mnet rate (period 4)                  21.1715
+  5. eval:  mnet: degree (density)                          0.1988
+  6. eval:  mnet: transitive triads                         0.0000
+  7. eval:  mnet: ranking ego and alt                       0.0000
+  8. eval:  mnet: ranking similarity                        0.0000
+  9. eval:  mnet: soloshow ego and alt                      0.0000
+ 10. eval:  mnet: soloshow similarity                       0.0000
+ 11. eval:  mnet: award ego and alt                         0.0000
+ 12. eval:  mnet: award similarity                          0.0000
+ 13. eval:  mnet: meanprice ego and alt                     0.0000
+ 14. eval:  mnet: meanprice similarity                      0.0000
+ 15. eval:  mnet: festbiennal ego and alt                   0.0000
+ 16. eval:  mnet: festbiennal similarity                    0.0000
+ 17. eval:  mnet: groupshow ego and alt                     0.0000
+ 18. eval:  mnet: groupshow similarity                      0.0000
+ 19. eval:  mnet: pnet                                      0.0000
+ 20. rate:  constant pnet rate (period 1)                  47.7520
+ 21. rate:  constant pnet rate (period 2)                  48.0347
+ 22. rate:  constant pnet rate (period 3)                  27.3521
+ 23. rate:  constant pnet rate (period 4)                  37.4510
+ 24. eval:  pnet: degree (density)                          0.1930
+ 25. eval:  pnet: transitive triads                         0.0000
+ 26. eval:  pnet: ranking ego and alt                       0.0000
+ 27. eval:  pnet: ranking similarity                        0.0000
+ 28. eval:  pnet: soloshow ego and alt                      0.0000
+ 29. eval:  pnet: soloshow similarity                       0.0000
+ 30. eval:  pnet: award ego and alt                         0.0000
+ 31. eval:  pnet: award similarity                          0.0000
+ 32. eval:  pnet: meanprice ego and alt                     0.0000
+ 33. eval:  pnet: meanprice similarity                      0.0000
+ 34. eval:  pnet: festbiennal ego and alt                   0.0000
+ 35. eval:  pnet: festbiennal similarity                    0.0000
+ 36. eval:  pnet: mnet                                      0.0000
+
+
+Observed values of target statistics are
+  1. Amount of network change in period 1                               782.0000
+  2. Amount of network change in period 2                               610.0000
+  3. Amount of network change in period 3                              2186.0000
+  4. Amount of network change in period 4                              1048.0000
+  5. mnet: Number of edges                                             9713.0000
+  6. mnet: Number of transitive triads                                 212900.0000
+  7. mnet: 2 * sum degr. x ranking                                     -727340.7800
+  8. mnet: ranking similarity                                           604.7440
+  9. mnet: 2 * sum degr. x soloshow                                    11104.4200
+ 10. mnet: soloshow similarity                                         -208.4402
+ 11. mnet: 2 * sum degr. x award                                        902.4900
+ 12. mnet: award similarity                                            -377.7061
+ 13. mnet: 2 * sum degr. x meanprice                                   218769.7640
+ 14. mnet: meanprice similarity                                        -134.4500
+ 15. mnet: 2 * sum degr. x festbiennal                                 4258.2000
+ 16. mnet: festbiennal similarity                                      -288.9520
+ 17. mnet: 2 * sum degr. x groupshow                                   95798.9100
+ 18. mnet: groupshow similarity                                        -382.6322
+ 19. mnet: sum crprod. with pnet                                       16528.0000
+ 20. Amount of network change in period 1                              2364.0000
+ 21. Amount of network change in period 2                              2378.0000
+ 22. Amount of network change in period 3                              1354.0000
+ 23. Amount of network change in period 4                              1854.0000
+ 24. pnet: Number of edges                                             11720.0000
+ 25. pnet: Number of transitive triads                                 253291.0000
+ 26. pnet: 2 * sum degr. x ranking                                     -350447.2000
+ 27. pnet: ranking similarity                                           174.1498
+ 28. pnet: 2 * sum degr. x soloshow                                    5550.8000
+ 29. pnet: soloshow similarity                                          -34.1989
+ 30. pnet: 2 * sum degr. x award                                        775.6000
+ 31. pnet: award similarity                                            -285.0929
+ 32. pnet: 2 * sum degr. x meanprice                                   232192.7600
+ 33. pnet: meanprice similarity                                        -162.0661
+ 34. pnet: 2 * sum degr. x festbiennal                                 1630.0000
+ 35. pnet: festbiennal similarity                                      -152.0255
+ 36. pnet: sum crprod. with mnet                                       14210.0000
+
+ 36 parameters, 36 statistics
+
+Estimation of derivatives by the LR method (type 1).
+
+
+@2
+End of stochastic approximation algorithm, phase 3.
+---------------------------------------------------
+
+Total of 2358 iterations.
+Parameter estimates based on 1334 iterations,
+convergence diagnostics, covariance and derivative matrices based on 1024 iterations.
+
+Information for convergence diagnosis.
+Averages, standard deviations, and t-ratios for deviations from targets:
+  1.    -50.3828   161.6953  -0.3116 
+  2.    -17.5488    62.7009  -0.2799 
+  3.   -678.5117   486.6217  -1.3943 
+  4.   -198.3535   206.0073  -0.9628 
+  5.   -150.2363   305.3815  -0.4920 
+  6.  -3649.0107 11223.7367  -0.3251 
+  7.   8652.5122 29887.7558   0.2895 
+  8.      1.6749    35.0758   0.0477 
+  9.    757.2575   712.6356   1.0626 
+ 10.    -14.2128    20.7232  -0.6858 
+ 11.    -61.6960   168.0415  -0.3671 
+ 12.    -14.0181    48.5140  -0.2889 
+ 13.  -9430.2635 37161.8394  -0.2538 
+ 14.     12.9677    29.2373   0.4435 
+ 15.    310.5793   260.1836   1.1937 
+ 16.    -15.3825    14.2093  -1.0826 
+ 17.   3819.1338  3368.8910   1.1336 
+ 18.     52.0344    26.2599   1.9815 
+ 19.     10.4160   495.5708   0.0210 
+ 20.     35.4102   285.1338   0.1242 
+ 21.     43.4316   228.5503   0.1900 
+ 22.    -92.6406    48.1057  -1.9258 
+ 23.   -617.6602   328.2289  -1.8818 
+ 24.   -186.2412   375.0998  -0.4965 
+ 25.  -6153.8115 14076.8846  -0.4372 
+ 26. -19374.3958 27050.5614  -0.7162 
+ 27.     11.3675    25.3897   0.4477 
+ 28.    221.5725   994.9687   0.2227 
+ 29.      2.8566    32.9548   0.0867 
+ 30.    -11.3955   150.9661  -0.0755 
+ 31.    -49.6738    44.7703  -1.1095 
+ 32.   5010.3136 17884.5115   0.2801 
+ 33.     -2.9232    14.1035  -0.2073 
+ 34.     -4.0717   400.9595  -0.0102 
+ 35.     -2.3041    29.8973  -0.0771 
+ 36.    120.3691   371.7241   0.3238 
+
+Good convergence is indicated by the t-ratios being close to zero.
+
+Overall maximum convergence ratio =  10.4615 .
+One or more of the t-statistics are rather large.
+Convergence of the algorithm is doubtful.
+
+
+
+@2
+Estimation Results.
+-------------------
+
+Regular end of estimation algorithm.
+Total of 2358 iteration steps.
+
+
+@3
+Estimates and standard errors
+                             
+ 1. rate:  constant mnet rate (period 1)                          43.3203  ( 109.2459)
+ 2. rate:  constant mnet rate (period 2)                          16.4519  (  20.3429)
+ 3. rate:  constant mnet rate (period 3)                        2209.2747  (26472.1501)
+ 4. rate:  constant mnet rate (period 4)                          66.3801  (26288.8758)
+ 5. eval:  mnet: degree (density)                                 -4.0866  (   1.5006)
+ 6. eval:  mnet: transitive triads                                 0.0905  (   0.0176)
+ 7. eval:  mnet: ranking ego and alt                              -0.0028  (   0.0164)
+ 8. eval:  mnet: ranking similarity                               -1.8151  (  10.1964)
+ 9. eval:  mnet: soloshow ego and alt                              0.0188  (   0.0319)
+10. eval:  mnet: soloshow similarity                              -1.0181  (   0.8259)
+11. eval:  mnet: award ego and alt                                -0.2652  (   0.3139)
+12. eval:  mnet: award similarity                                 -0.1631  (   1.3546)
+13. eval:  mnet: meanprice ego and alt                             0.0001  (   0.0079)
+14. eval:  mnet: meanprice similarity                              0.5930  (  13.9691)
+15. eval:  mnet: festbiennal ego and alt                           0.2039  (   0.1161)
+16. eval:  mnet: festbiennal similarity                            1.8706  (   6.7388)
+17. eval:  mnet: groupshow ego and alt                             0.0101  (   0.0383)
+18. eval:  mnet: groupshow similarity                              1.0258  (   3.6673)
+19. eval:  mnet: pnet                                              1.9191  (   1.2566)
+20. rate:  constant pnet rate (period 1)                          61.8357  (  35.2051)
+21. rate:  constant pnet rate (period 2)                          51.9788  (  37.9672)
+22. rate:  constant pnet rate (period 3)                          95.0540  (  73.6426)
+23. rate:  constant pnet rate (period 4)                        2400.2170  ( 921.7097)
+24. eval:  pnet: degree (density)                                 -1.6615  (   0.0247)
+25. eval:  pnet: transitive triads                                 0.0463  (   0.0017)
+26. eval:  pnet: ranking ego and alt                              -0.0003  (   0.0005)
+27. eval:  pnet: ranking similarity                               -0.3225  (   0.9824)
+28. eval:  pnet: soloshow ego and alt                              0.0055  (   0.0631)
+29. eval:  pnet: soloshow similarity                               0.2983  (   1.1909)
+30. eval:  pnet: award ego and alt                                -0.0324  (   0.2414)
+31. eval:  pnet: award similarity                                 -0.0740  (   0.3853)
+32. eval:  pnet: meanprice ego and alt                            -0.0007  (   0.0076)
+33. eval:  pnet: meanprice similarity                             -0.8966  (   8.5043)
+34. eval:  pnet: festbiennal ego and alt                          -0.1424  (   0.0564)
+35. eval:  pnet: festbiennal similarity                           -1.0937  (   2.7086)
+36. eval:  pnet: mnet                                              0.2191  (   0.0983)
+
+
+@3
+Covariance matrices
+                   
+Covariance matrix of estimates (correlations below diagonal):
+ 1.193466e+04  2.157478e+03  2.526964e+05 -2.545995e+05  1.615310e+02 -1.855000e+00  1.763000e+00  1.088434e+03 -2.032000e+00  8.351000e+01 -3.130800e+01  1.433370e+02  7.430000e-01  1.389557e+03  1.201400e+01  7.224960e+02 -4.100000e+00 -3.893250e+02 -1.354180e+02 -3.611644e+03 -3.928759e+03 -6.591867e+03 -9.559081e+04 -9.000000e-03 -1.550000e-01 -2.500000e-02  1.024790e+02  6.790000e+00  1.231780e+02  2.251900e+01 -3.744000e+01 -8.050000e-01 -8.996280e+02 -2.057000e+00 -2.730480e+02 -9.181000e+00
+ 9.710000e-01  4.138330e+02  3.879009e+04 -3.922178e+04  2.966900e+01 -3.400000e-01  3.200000e-01  1.963500e+02 -4.030000e-01  1.510700e+01 -5.627000e+00  2.640700e+01  1.310000e-01  2.467000e+02  2.174000e+00  1.298740e+02 -7.430000e-01 -6.994900e+01 -2.491300e+01 -6.608560e+02 -6.864320e+02 -1.144615e+03 -1.774982e+04  3.000000e-03 -2.900000e-02 -4.000000e-03  1.916000e+01  1.233000e+00  2.184400e+01  3.904000e+00 -7.046000e+00 -1.480000e-01 -1.661330e+02 -3.250000e-01 -4.846900e+01 -1.582000e+00
+ 8.700000e-02  7.200000e-02  7.007747e+08 -6.959052e+08  3.183490e+03 -3.457800e+01  3.804400e+01  1.928278e+04 -1.456710e+02  9.769800e+02 -8.340730e+02  4.859790e+03 -9.920000e-01  6.165752e+03  4.509720e+02  1.482618e+04 -8.649900e+01 -9.093781e+03 -2.681344e+03 -3.086335e+04 -6.659742e+04 -1.747577e+04 -3.343840e+06 -8.142000e+00 -4.027000e+00  9.320000e-01  3.104355e+03  1.429800e+02  1.634758e+03 -1.239560e+02 -1.658302e+03 -2.281100e+01 -2.526605e+04  1.495980e+02 -1.704558e+03  3.880900e+01
+-8.900000e-02 -7.300000e-02 -1.000000e+00  6.911050e+08 -3.215884e+03  3.501900e+01 -3.835200e+01 -1.948217e+04  1.454970e+02 -1.002408e+03  8.361890e+02 -4.880192e+03  8.450000e-01 -6.430277e+03 -4.521000e+02 -1.493220e+04  8.721400e+01  9.139102e+03  2.709476e+03  3.159921e+04  6.711308e+04  1.759042e+04  3.355752e+06  8.757000e+00  4.046000e+00 -9.350000e-01 -3.126942e+03 -1.441590e+02 -1.657015e+03  1.210910e+02  1.666294e+03  2.294500e+01  2.542121e+04 -1.480830e+02  1.764920e+03 -3.794800e+01
+ 9.850000e-01  9.720000e-01  8.000000e-02 -8.200000e-02  2.252000e+00 -2.600000e-02  2.400000e-02  1.505300e+01 -2.700000e-02  1.167000e+00 -4.340000e-01  1.954000e+00  1.000000e-02  1.914900e+01  1.610000e-01  9.897000e+00 -5.700000e-02 -5.397000e+00 -1.882000e+00 -5.048100e+01 -5.421300e+01 -8.983700e+01 -1.323948e+03  1.000000e-03 -2.000000e-03  0.000000e+00  1.416000e+00  9.300000e-02  1.706000e+00  3.120000e-01 -5.160000e-01 -1.100000e-02 -1.248300e+01 -2.900000e-02 -3.765000e+00 -1.210000e-01
+-9.640000e-01 -9.500000e-01 -7.400000e-02  7.600000e-02 -9.930000e-01  0.000000e+00  0.000000e+00 -1.760000e-01  0.000000e+00 -1.400000e-02  5.000000e-03 -2.200000e-02  0.000000e+00 -2.270000e-01 -2.000000e-03 -1.150000e-01  1.000000e-03  6.300000e-02  2.200000e-02  5.930000e-01  6.370000e-01  1.055000e+00  1.520800e+01  0.000000e+00  0.000000e+00  0.000000e+00 -1.600000e-02 -1.000000e-03 -2.000000e-02 -4.000000e-03  6.000000e-03  0.000000e+00  1.450000e-01  0.000000e+00  4.500000e-02  1.000000e-03
+ 9.830000e-01  9.580000e-01  8.700000e-02 -8.900000e-02  9.890000e-01 -9.830000e-01  0.000000e+00  1.670000e-01  0.000000e+00  1.300000e-02 -5.000000e-03  2.100000e-02  0.000000e+00  2.160000e-01  2.000000e-03  1.100000e-01 -1.000000e-03 -6.000000e-02 -2.000000e-02 -5.580000e-01 -6.040000e-01 -9.920000e-01 -1.435000e+01  0.000000e+00  0.000000e+00  0.000000e+00  1.500000e-02  1.000000e-03  1.900000e-02  4.000000e-03 -6.000000e-03  0.000000e+00 -1.370000e-01  0.000000e+00 -4.200000e-02 -1.000000e-03
+ 9.770000e-01  9.470000e-01  7.100000e-02 -7.300000e-02  9.840000e-01 -9.820000e-01  9.970000e-01  1.039670e+02 -1.610000e-01  7.897000e+00 -2.978000e+00  1.295800e+01  7.400000e-02  1.367100e+02  1.092000e+00  6.835400e+01 -3.890000e-01 -3.718700e+01 -1.250800e+01 -3.491150e+02 -3.775070e+02 -6.391620e+02 -8.683735e+03 -1.200000e-02 -1.400000e-02 -3.000000e-03  9.400000e+00  6.390000e-01  1.201000e+01  2.256000e+00 -3.316000e+00 -7.500000e-02 -8.397500e+01 -2.670000e-01 -2.681800e+01 -8.620000e-01
+-5.820000e-01 -6.200000e-01 -1.720000e-01  1.730000e-01 -5.560000e-01  4.960000e-01 -5.510000e-01 -4.930000e-01  1.000000e-03 -1.100000e-02  6.000000e-03 -3.000000e-02  0.000000e+00 -1.270000e-01 -2.000000e-03 -1.120000e-01  1.000000e-03  5.900000e-02  2.400000e-02  4.760000e-01  5.300000e-01  2.500000e-01  2.181300e+01  0.000000e+00  0.000000e+00  0.000000e+00 -2.200000e-02 -1.000000e-03 -1.500000e-02 -1.000000e-03  1.000000e-02  0.000000e+00  1.810000e-01 -1.000000e-03  2.700000e-02  1.000000e-03
+ 9.260000e-01  8.990000e-01  4.500000e-02 -4.600000e-02  9.410000e-01 -9.460000e-01  9.340000e-01  9.380000e-01 -4.020000e-01  6.820000e-01 -2.210000e-01  9.990000e-01  5.000000e-03  1.012000e+01  8.400000e-02  5.222000e+00 -3.000000e-02 -2.856000e+00 -9.690000e-01 -2.605000e+01 -2.850400e+01 -4.942700e+01 -6.775760e+02  2.000000e-03 -1.000000e-03  0.000000e+00  7.140000e-01  4.800000e-02  9.080000e-01  1.690000e-01 -2.650000e-01 -6.000000e-03 -6.410000e+00 -1.700000e-02 -2.009000e+00 -6.600000e-02
+-9.130000e-01 -8.810000e-01 -1.000000e-01  1.010000e-01 -9.220000e-01  9.110000e-01 -9.410000e-01 -9.300000e-01  6.300000e-01 -8.510000e-01  9.900000e-02 -3.730000e-01 -2.000000e-03 -3.701000e+00 -3.100000e-02 -1.963000e+00  1.100000e-02  1.088000e+00  3.660000e-01  1.002300e+01  1.104400e+01  1.719700e+01  2.677900e+02  0.000000e+00  0.000000e+00  0.000000e+00 -2.780000e-01 -1.900000e-02 -3.420000e-01 -6.300000e-02  1.000000e-01  2.000000e-03  2.506000e+00  5.000000e-03  7.320000e-01  2.400000e-02
+ 9.690000e-01  9.580000e-01  1.360000e-01 -1.370000e-01  9.610000e-01 -9.380000e-01  9.570000e-01  9.380000e-01 -6.960000e-01  8.930000e-01 -8.780000e-01  1.835000e+00  8.000000e-03  1.560800e+01  1.510000e-01  8.665000e+00 -4.900000e-02 -4.655000e+00 -1.648000e+00 -4.185500e+01 -4.597200e+01 -6.845000e+01 -1.220236e+03  1.000000e-03 -2.000000e-03  0.000000e+00  1.303000e+00  8.200000e-02  1.434000e+00  2.430000e-01 -4.980000e-01 -1.000000e-02 -1.127600e+01 -1.500000e-02 -3.115000e+00 -1.010000e-01
+ 8.600000e-01  8.150000e-01 -5.000000e-03  4.000000e-03  8.630000e-01 -8.760000e-01  8.920000e-01  9.190000e-01 -1.820000e-01  8.330000e-01 -7.840000e-01  7.560000e-01  0.000000e+00  1.100000e-01  1.000000e-03  4.800000e-02  0.000000e+00 -2.600000e-02 -8.000000e-03 -2.590000e-01 -2.720000e-01 -5.410000e-01 -5.163000e+00  0.000000e+00  0.000000e+00  0.000000e+00  6.000000e-03  0.000000e+00  9.000000e-03  2.000000e-03 -2.000000e-03  0.000000e+00 -5.400000e-02  0.000000e+00 -2.100000e-02 -1.000000e-03
+ 9.110000e-01  8.680000e-01  1.700000e-02 -1.800000e-02  9.140000e-01 -9.220000e-01  9.390000e-01  9.600000e-01 -2.840000e-01  8.770000e-01 -8.440000e-01  8.250000e-01  9.930000e-01  1.951350e+02  1.346000e+00  8.901700e+01 -5.120000e-01 -4.829600e+01 -1.567400e+01 -4.715590e+02 -5.005130e+02 -9.463100e+02 -1.011926e+04 -6.600000e-02 -1.700000e-02 -4.000000e-03  1.136700e+01  8.210000e-01  1.624000e+01  3.268000e+00 -3.665000e+00 -9.300000e-02 -1.032440e+02 -5.250000e-01 -3.758400e+01 -1.213000e+00
+ 9.470000e-01  9.210000e-01  1.470000e-01 -1.480000e-01  9.230000e-01 -8.990000e-01  9.350000e-01  9.230000e-01 -6.350000e-01  8.790000e-01 -8.490000e-01  9.600000e-01  7.690000e-01  8.300000e-01  1.300000e-02  7.420000e-01 -4.000000e-03 -3.890000e-01 -1.350000e-01 -3.500000e+00 -3.881000e+00 -5.938000e+00 -9.931400e+01  0.000000e+00  0.000000e+00  0.000000e+00  1.070000e-01  7.000000e-03  1.230000e-01  2.100000e-02 -4.100000e-02 -1.000000e-03 -9.320000e-01 -2.000000e-03 -2.700000e-01 -9.000000e-03
+ 9.810000e-01  9.470000e-01  8.300000e-02 -8.400000e-02  9.790000e-01 -9.720000e-01  9.940000e-01  9.950000e-01 -5.220000e-01  9.380000e-01 -9.280000e-01  9.490000e-01  9.000000e-01  9.460000e-01  9.490000e-01  4.541100e+01 -2.560000e-01 -2.449200e+01 -8.243000e+00 -2.273740e+02 -2.480610e+02 -4.161100e+02 -5.786061e+03 -7.000000e-03 -9.000000e-03 -2.000000e-03  6.242000e+00  4.220000e-01  7.883000e+00  1.465000e+00 -2.234000e+00 -5.000000e-02 -5.564100e+01 -1.640000e-01 -1.755700e+01 -5.740000e-01
+-9.800000e-01 -9.530000e-01 -8.500000e-02  8.700000e-02 -9.860000e-01  9.840000e-01 -9.940000e-01 -9.970000e-01  4.850000e-01 -9.480000e-01  9.170000e-01 -9.410000e-01 -9.180000e-01 -9.570000e-01 -9.210000e-01 -9.920000e-01  1.000000e-03  1.390000e-01  4.700000e-02  1.309000e+00  1.410000e+00  2.427000e+00  3.266000e+01  0.000000e+00  0.000000e+00  0.000000e+00 -3.500000e-02 -2.000000e-03 -4.500000e-02 -8.000000e-03  1.300000e-02  0.000000e+00  3.150000e-01  1.000000e-03  1.000000e-01  3.000000e-03
+-9.720000e-01 -9.380000e-01 -9.400000e-02  9.500000e-02 -9.810000e-01  9.780000e-01 -9.930000e-01 -9.940000e-01  5.050000e-01 -9.430000e-01  9.450000e-01 -9.370000e-01 -8.970000e-01 -9.430000e-01 -9.140000e-01 -9.910000e-01  9.920000e-01  1.344900e+01  4.497000e+00  1.246480e+02  1.362250e+02  2.293060e+02  3.152825e+03 -1.000000e-03  5.000000e-03  1.000000e-03 -3.357000e+00 -2.290000e-01 -4.302000e+00 -8.090000e-01  1.195000e+00  2.700000e-02  3.018900e+01  8.700000e-02  9.496000e+00  3.090000e-01
+-9.860000e-01 -9.750000e-01 -8.100000e-02  8.200000e-02 -9.980000e-01  9.860000e-01 -9.850000e-01 -9.760000e-01  5.950000e-01 -9.330000e-01  9.290000e-01 -9.680000e-01 -8.370000e-01 -8.930000e-01 -9.260000e-01 -9.730000e-01  9.780000e-01  9.760000e-01  1.579000e+00  4.182700e+01  4.506800e+01  7.365900e+01  1.122728e+03 -2.000000e-03  2.000000e-03  0.000000e+00 -1.193000e+00 -7.800000e-02 -1.409000e+00 -2.550000e-01  4.390000e-01  9.000000e-03  1.048600e+01  2.100000e-02  3.087000e+00  1.000000e-01
+-9.390000e-01 -9.230000e-01 -3.300000e-02  3.400000e-02 -9.560000e-01  9.570000e-01 -9.650000e-01 -9.730000e-01  4.240000e-01 -8.960000e-01  9.070000e-01 -8.780000e-01 -9.300000e-01 -9.590000e-01 -8.560000e-01 -9.580000e-01  9.700000e-01  9.650000e-01  9.450000e-01  1.239402e+03  1.271800e+03  2.279780e+03  2.822171e+04  5.500000e-02  4.900000e-02  1.000000e-02 -3.079100e+01 -2.126000e+00 -4.061400e+01 -7.930000e+00  1.036000e+01  2.480000e-01  2.760730e+02  1.013000e+00  9.135400e+01  2.943000e+00
+-9.470000e-01 -8.890000e-01 -6.600000e-02  6.700000e-02 -9.520000e-01  9.520000e-01 -9.680000e-01 -9.750000e-01  4.370000e-01 -9.090000e-01  9.270000e-01 -8.940000e-01 -9.060000e-01 -9.440000e-01 -8.810000e-01 -9.700000e-01  9.700000e-01  9.780000e-01  9.450000e-01  9.510000e-01  1.441511e+03  2.424737e+03  3.098515e+04 -1.000000e-03  5.400000e-02  1.100000e-02 -3.299800e+01 -2.303000e+00 -4.417300e+01 -8.515000e+00  1.158300e+01  2.690000e-01  2.991560e+02  9.930000e-01  9.795800e+01  3.187000e+00
+-8.190000e-01 -7.640000e-01 -9.000000e-03  9.000000e-03 -8.130000e-01  8.130000e-01 -8.200000e-01 -8.510000e-01  1.060000e-01 -8.130000e-01  7.440000e-01 -6.860000e-01 -9.280000e-01 -9.200000e-01 -6.950000e-01 -8.380000e-01  8.600000e-01  8.490000e-01  7.960000e-01  8.790000e-01  8.670000e-01  5.423229e+03  4.449977e+04  1.280000e-01  8.000000e-02  2.800000e-02 -4.806500e+01 -3.746000e+00 -7.727300e+01 -1.684800e+01  1.463100e+01  4.080000e-01  4.515590e+02  2.509000e+00  1.792920e+02  6.386000e+00
+-9.490000e-01 -9.470000e-01 -1.370000e-01  1.380000e-01 -9.570000e-01  9.370000e-01 -9.480000e-01 -9.240000e-01  7.410000e-01 -8.900000e-01  9.260000e-01 -9.770000e-01 -7.080000e-01 -7.860000e-01 -9.280000e-01 -9.320000e-01  9.250000e-01  9.330000e-01  9.690000e-01  8.700000e-01  8.850000e-01  6.560000e-01  8.495488e+05 -2.908000e+00  1.375000e+00  1.270000e-01 -8.848390e+02 -5.541800e+01 -9.567200e+02 -1.606150e+02  3.407050e+02  6.891000e+00  7.701753e+03  6.234000e+00  2.027937e+03  6.501800e+01
+-3.000000e-03  5.000000e-03 -1.200000e-02  1.300000e-02  3.500000e-02 -2.900000e-02 -2.800000e-02 -4.900000e-02 -1.350000e-01  7.600000e-02 -5.100000e-02  4.400000e-02 -2.410000e-01 -1.900000e-01 -1.200000e-02 -4.400000e-02  4.000000e-02 -6.000000e-03 -6.100000e-02  6.400000e-02 -1.000000e-03  7.000000e-02 -1.280000e-01  1.000000e-03  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00 -2.000000e-03 -1.000000e-03 -1.000000e-03  0.000000e+00 -3.000000e-03  1.000000e-03  1.200000e-02  0.000000e+00
+-8.200000e-01 -8.260000e-01 -8.800000e-02  8.900000e-02 -8.630000e-01  8.630000e-01 -8.370000e-01 -8.210000e-01  5.510000e-01 -7.750000e-01  8.220000e-01 -8.280000e-01 -6.480000e-01 -7.090000e-01 -7.620000e-01 -8.070000e-01  8.240000e-01  8.350000e-01  8.700000e-01  8.110000e-01  8.260000e-01  6.310000e-01  8.640000e-01 -3.820000e-01  0.000000e+00  0.000000e+00 -1.000000e-03  0.000000e+00 -2.000000e-03  0.000000e+00  1.000000e-03  0.000000e+00  1.200000e-02  0.000000e+00  3.000000e-03  0.000000e+00
+-4.970000e-01 -3.840000e-01  7.600000e-02 -7.700000e-02 -4.770000e-01  4.940000e-01 -5.190000e-01 -5.690000e-01 -2.200000e-01 -5.450000e-01  4.970000e-01 -3.300000e-01 -7.320000e-01 -6.970000e-01 -3.840000e-01 -5.580000e-01  5.610000e-01  5.810000e-01  4.530000e-01  6.020000e-01  6.440000e-01  8.190000e-01  2.990000e-01  6.300000e-02  3.120000e-01  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  0.000000e+00  1.000000e-03  0.000000e+00  1.000000e-03  0.000000e+00
+ 9.550000e-01  9.590000e-01  1.190000e-01 -1.210000e-01  9.610000e-01 -9.440000e-01  9.590000e-01  9.380000e-01 -7.110000e-01  8.800000e-01 -9.030000e-01  9.790000e-01  7.610000e-01  8.280000e-01  9.390000e-01  9.430000e-01 -9.390000e-01 -9.320000e-01 -9.660000e-01 -8.900000e-01 -8.850000e-01 -6.640000e-01 -9.770000e-01 -7.000000e-03 -8.280000e-01 -2.690000e-01  9.650000e-01  6.000000e-02  1.039000e+00  1.750000e-01 -3.590000e-01 -7.000000e-03 -8.238000e+00 -1.300000e-02 -2.269000e+00 -7.100000e-02
+ 9.850000e-01  9.610000e-01  8.600000e-02 -8.700000e-02  9.860000e-01 -9.770000e-01  9.980000e-01  9.930000e-01 -5.780000e-01  9.280000e-01 -9.410000e-01  9.630000e-01  8.810000e-01  9.310000e-01  9.420000e-01  9.930000e-01 -9.900000e-01 -9.880000e-01 -9.840000e-01 -9.570000e-01 -9.610000e-01 -8.060000e-01 -9.530000e-01 -4.600000e-02 -8.230000e-01 -5.000000e-01  9.640000e-01  4.000000e-03  7.300000e-02  1.300000e-02 -2.200000e-02  0.000000e+00 -5.290000e-01 -1.000000e-03 -1.620000e-01 -5.000000e-03
+ 9.470000e-01  9.020000e-01  5.200000e-02 -5.300000e-02  9.550000e-01 -9.610000e-01  9.780000e-01  9.890000e-01 -3.980000e-01  9.230000e-01 -9.140000e-01  8.890000e-01  9.460000e-01  9.760000e-01  8.890000e-01  9.820000e-01 -9.840000e-01 -9.850000e-01 -9.420000e-01 -9.690000e-01 -9.770000e-01 -8.810000e-01 -8.720000e-01 -8.000000e-02 -7.820000e-01 -6.540000e-01  8.880000e-01  9.710000e-01  1.418000e+00  2.730000e-01 -3.560000e-01 -8.000000e-03 -9.431000e+00 -3.700000e-02 -3.179000e+00 -1.030000e-01
+ 8.540000e-01  7.950000e-01 -1.900000e-02  1.900000e-02  8.610000e-01 -8.730000e-01  8.890000e-01  9.170000e-01 -1.860000e-01  8.450000e-01 -8.340000e-01  7.420000e-01  9.670000e-01  9.690000e-01  7.510000e-01  9.000000e-01 -9.100000e-01 -9.140000e-01 -8.410000e-01 -9.330000e-01 -9.290000e-01 -9.480000e-01 -7.220000e-01 -1.110000e-01 -6.780000e-01 -8.060000e-01  7.380000e-01  8.740000e-01  9.510000e-01  5.800000e-02 -5.300000e-02 -1.000000e-03 -1.645000e+00 -9.000000e-03 -6.270000e-01 -2.100000e-02
+-8.890000e-01 -8.990000e-01 -1.630000e-01  1.640000e-01 -8.920000e-01  8.690000e-01 -8.760000e-01 -8.440000e-01  7.740000e-01 -8.320000e-01  8.240000e-01 -9.540000e-01 -5.960000e-01 -6.810000e-01 -9.130000e-01 -8.600000e-01  8.470000e-01  8.460000e-01  9.060000e-01  7.640000e-01  7.920000e-01  5.160000e-01  9.590000e-01 -1.250000e-01  8.100000e-01  1.390000e-01 -9.480000e-01 -8.870000e-01 -7.770000e-01 -5.690000e-01  1.480000e-01  3.000000e-03  3.056000e+00  1.000000e-03  7.510000e-01  2.300000e-02
+-9.690000e-01 -9.600000e-01 -1.130000e-01  1.150000e-01 -9.800000e-01  9.690000e-01 -9.850000e-01 -9.700000e-01  6.620000e-01 -9.160000e-01  9.410000e-01 -9.780000e-01 -8.080000e-01 -8.720000e-01 -9.430000e-01 -9.720000e-01  9.680000e-01  9.710000e-01  9.830000e-01  9.250000e-01  9.300000e-01  7.280000e-01  9.830000e-01 -2.000000e-02  8.490000e-01  3.900000e-01 -9.850000e-01 -9.860000e-01 -9.340000e-01 -8.060000e-01  9.310000e-01  0.000000e+00  6.500000e-02  0.000000e+00  1.800000e-02  1.000000e-03
+-9.680000e-01 -9.600000e-01 -1.120000e-01  1.140000e-01 -9.780000e-01  9.670000e-01 -9.830000e-01 -9.680000e-01  6.680000e-01 -9.130000e-01  9.390000e-01 -9.790000e-01 -8.050000e-01 -8.690000e-01 -9.440000e-01 -9.710000e-01  9.660000e-01  9.680000e-01  9.810000e-01  9.220000e-01  9.270000e-01  7.210000e-01  9.830000e-01 -1.500000e-02  8.460000e-01  3.810000e-01 -9.860000e-01 -9.860000e-01 -9.310000e-01 -8.010000e-01  9.330000e-01  1.000000e+00  7.232400e+01  1.350000e-01  2.053300e+01  6.460000e-01
+-3.340000e-01 -2.830000e-01  1.000000e-01 -1.000000e-01 -3.450000e-01  3.960000e-01 -4.100000e-01 -4.640000e-01 -3.380000e-01 -3.590000e-01  2.880000e-01 -2.020000e-01 -7.350000e-01 -6.660000e-01 -2.610000e-01 -4.300000e-01  4.540000e-01  4.210000e-01  2.960000e-01  5.100000e-01  4.640000e-01  6.040000e-01  1.200000e-01  5.540000e-01  1.260000e-01  6.220000e-01 -2.390000e-01 -3.970000e-01 -5.470000e-01 -6.550000e-01  3.100000e-02  2.820000e-01  2.810000e-01  3.000000e-03  1.000000e-01  3.000000e-03
+-9.230000e-01 -8.800000e-01 -2.400000e-02  2.500000e-02 -9.260000e-01  9.360000e-01 -9.530000e-01 -9.710000e-01  3.160000e-01 -8.980000e-01  8.610000e-01 -8.490000e-01 -9.780000e-01 -9.930000e-01 -8.580000e-01 -9.620000e-01  9.680000e-01  9.560000e-01  9.070000e-01  9.580000e-01  9.530000e-01  8.990000e-01  8.120000e-01  1.820000e-01  7.200000e-01  6.710000e-01 -8.530000e-01 -9.460000e-01 -9.850000e-01 -9.590000e-01  7.200000e-01  8.930000e-01  8.910000e-01  6.520000e-01  7.336000e+00  2.340000e-01
+-8.550000e-01 -7.920000e-01  1.500000e-02 -1.500000e-02 -8.210000e-01  8.040000e-01 -8.410000e-01 -8.610000e-01  2.940000e-01 -8.170000e-01  7.890000e-01 -7.560000e-01 -8.690000e-01 -8.840000e-01 -7.740000e-01 -8.660000e-01  8.560000e-01  8.570000e-01  8.120000e-01  8.510000e-01  8.540000e-01  8.830000e-01  7.180000e-01  1.400000e-01  5.200000e-01  7.400000e-01 -7.310000e-01 -8.420000e-01 -8.760000e-01 -8.940000e-01  6.080000e-01  7.770000e-01  7.740000e-01  4.920000e-01  8.800000e-01  1.000000e-02
+
+Derivative matrix of expected statistics X by parameters and
+covariance/correlation matrix of X can be found using
+summary(ans) within R, or by using the 'verbose' option in Siena07.
+ 
+Total computation time 111984.62 seconds.

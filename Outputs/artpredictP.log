@@ -1,0 +1,973 @@
+nohup: ignoring input
+               year  ...  elite_award_received
+count  57859.000000  ...          57859.000000
+mean    2008.175029  ...              0.317289
+std        4.541383  ...              0.465425
+min     1996.000000  ...              0.000000
+25%     2005.000000  ...              0.000000
+50%     2009.000000  ...              0.000000
+75%     2012.000000  ...              1.000000
+max     2014.000000  ...              1.000000
+
+[8 rows x 104 columns]
+year                  year                        1.000000
+                      height                     -0.059804
+                      width                      -0.065688
+                      case_id                     0.049252
+                      size_inchsqr               -0.011152
+                                                    ...   
+elite_award_received  elite_school               -0.024767
+                      elite_school_NA             0.365429
+                      non_elite_school           -0.171755
+                      elite_award_not_received   -1.000000
+                      elite_award_received        1.000000
+Length: 10816, dtype: float64
+elite_award_received        elite_award_not_received     -1.000000
+elite_award_not_received    elite_award_received         -1.000000
+gender_male                 gender_female                -0.998123
+gender_female               gender_male                  -0.998123
+Continent___Europe          Country___USA                -0.932268
+                                                            ...   
+price_inch_prev_10_mean     price_inch_prev_10_mean       1.000000
+price_inch_prev_10_min      price_inch_prev_10_min        1.000000
+price_inch_prev_10_max      price_inch_prev_10_max        1.000000
+price_same_size_prev_3_max  price_same_size_prev_3_max    1.000000
+elite_award_received        elite_award_received          1.000000
+Length: 10816, dtype: float64
+elite_award_received          elite_award_not_received       -1.000000
+elite_award_not_received      elite_award_received           -1.000000
+gender_male                   gender_female                  -0.998123
+gender_female                 gender_male                    -0.998123
+Continent___Europe            Country___USA                  -0.932268
+                                                                ...   
+Country___Japan               price_same_size_prev_10_max    -0.000047
+min_price                     price_same_size_prev_10_mean   -0.000015
+price_same_size_prev_10_mean  min_price                      -0.000015
+edu_abroad                    price_inch_prev_7_max          -0.000001
+price_inch_prev_7_max         edu_abroad                     -0.000001
+Length: 4462, dtype: float64
+elite_award_received        elite_award_not_received     -1.000000
+elite_award_not_received    elite_award_received         -1.000000
+gender_male                 gender_female                -0.998123
+gender_female               gender_male                  -0.998123
+Continent___Europe          Country___USA                -0.932268
+                                                            ...   
+price_inch_prev_10_mean     price_inch_prev_10_mean       1.000000
+price_inch_prev_10_min      price_inch_prev_10_min        1.000000
+price_inch_prev_10_max      price_inch_prev_10_max        1.000000
+price_same_size_prev_3_max  price_same_size_prev_3_max    1.000000
+elite_award_received        elite_award_received          1.000000
+Length: 486, dtype: float64
+Feature: 0, Score: -20203340871592584.00000
+Feature: 1, Score: -92596100085865776.00000
+Feature: 2, Score: 13335162298536038.00000
+Feature: 3, Score: -27743105774243120.00000
+Feature: 4, Score: 18267104409647300.00000
+Feature: 5, Score: 10019676584788856.00000
+Feature: 6, Score: 11104297753038068.00000
+Feature: 7, Score: 27616739371334744.00000
+Feature: 8, Score: 22703083515220560.00000
+Feature: 9, Score: 1949233114201792.00000
+Feature: 10, Score: 26539565174709384.00000
+Feature: 11, Score: 11354952091761496.00000
+Feature: 12, Score: 41471369997782488.00000
+Feature: 13, Score: -56939253776266480.00000
+Feature: 14, Score: 16027449885248320.00000
+Feature: 15, Score: 18148568556839520.00000
+Feature: 16, Score: 16855946863525152.00000
+Feature: 17, Score: 15869636084158906.00000
+Feature: 18, Score: 41070075320094552.00000
+Feature: 19, Score: 24549659555177608.00000
+Feature: 20, Score: 25783650622834040.00000
+Feature: 21, Score: 34539344918182996.00000
+Feature: 22, Score: 1223.00000
+Feature: 23, Score: -396.00000
+Feature: 24, Score: 479.00000
+Feature: 25, Score: -3956.00000
+Feature: 26, Score: 634.50000
+Feature: 27, Score: 8222.50000
+Feature: 28, Score: -516.75000
+Feature: 29, Score: 6062.62500
+Feature: 30, Score: 5.75000
+Feature: 31, Score: -2314.25000
+Feature: 32, Score: -9454527109857848.00000
+Feature: 33, Score: -1719667765702112.00000
+Feature: 34, Score: 10327986616991394.00000
+Feature: 35, Score: 14717723895835432.00000
+Feature: 36, Score: 20012477714366392.00000
+Feature: 37, Score: -353920112008269.75000
+Feature: 38, Score: -353920112008935.00000
+Feature: 39, Score: -42022536207881208.00000
+Feature: 40, Score: -24392221624346264.00000
+Feature: 41, Score: -16549526849720.50000
+Feature: 42, Score: 28421483077121.00000
+Feature: 43, Score: -6563694152744.00000
+Feature: 44, Score: -5454827714310.50000
+Feature: 45, Score: -1019.50000
+Feature: 46, Score: -1870875249567252.00000
+Feature: 47, Score: -30510205135984696.00000
+Feature: 48, Score: -30552342123117776.00000
+Feature: 49, Score: -43548551985759736.00000
+Feature: 50, Score: -1740.00000
+Feature: 51, Score: 1310.00000
+Feature: 52, Score: -3560.00000
+Feature: 53, Score: -3223.25000
+Feature: 54, Score: 3336.00000
+Feature: 55, Score: -1404.00000
+Feature: 56, Score: -1152.00000
+Feature: 57, Score: -28553906017400696.00000
+Feature: 58, Score: -45837710056973520.00000
+Feature: 59, Score: 8399.00000
+Feature: 60, Score: -10428.00000
+Feature: 61, Score: -608.00000
+Feature: 62, Score: -319.00000
+Feature: 63, Score: 477.00000
+Feature: 64, Score: -1578.00000
+Feature: 65, Score: 3800.00000
+Feature: 66, Score: -5964.00000
+Feature: 67, Score: 742.00000
+Feature: 68, Score: -9582.00000
+Feature: 69, Score: 11092.00000
+Feature: 70, Score: -144.00000
+Feature: 71, Score: -10790.00000
+Feature: 72, Score: 12692.00000
+Feature: 73, Score: 2026.00000
+Feature: 74, Score: 398.00000
+Feature: 75, Score: 244.00000
+Feature: 76, Score: 1236.00000
+Feature: 77, Score: 78.00000
+Feature: 78, Score: 5634.00000
+Feature: 79, Score: -1708.00000
+Feature: 80, Score: 5116.00000
+Feature: 81, Score: -10084.00000
+Feature: 82, Score: 615.00000
+Feature: 83, Score: -2948.00000
+Feature: 84, Score: 1448.00000
+Feature: 85, Score: 1178.00000
+Feature: 86, Score: 6108.00000
+Feature: 87, Score: -4122.00000
+Feature: 88, Score: 2743.00000
+Feature: 89, Score: -5616.00000
+Feature: 90, Score: 3941.00000
+Feature: 91, Score: -1008.00000
+Feature: 92, Score: 3890.00000
+Feature: 93, Score: 597.00000
+Feature: 94, Score: 2528.00000
+Feature: 95, Score: 3538.00000
+Feature: 96, Score: 1306.00000
+Feature: 97, Score: -428.00000
+Feature: 98, Score: -3089.50000
+Feature: 99, Score: -2188.00000
+Feature: 100, Score: -48729676192838048.00000
+Feature: 101, Score: -880.00000
+Feature: 102, Score: 2176.00000
+Feature: 0, Score: 0.00000
+Feature: 1, Score: 0.00003
+Feature: 2, Score: 0.00005
+Feature: 3, Score: 0.00012
+Feature: 4, Score: 0.00035
+Feature: 5, Score: 0.00003
+Feature: 6, Score: 0.00001
+Feature: 7, Score: 0.00001
+Feature: 8, Score: 0.00002
+Feature: 9, Score: 0.00000
+Feature: 10, Score: 0.00001
+Feature: 11, Score: 0.00000
+Feature: 12, Score: 0.00013
+Feature: 13, Score: 0.00011
+Feature: 14, Score: 0.00070
+Feature: 15, Score: 0.00023
+Feature: 16, Score: 0.00024
+Feature: 17, Score: 0.00020
+Feature: 18, Score: 0.00001
+Feature: 19, Score: 0.00006
+Feature: 20, Score: 0.00000
+Feature: 21, Score: 0.00003
+Feature: 22, Score: 0.01045
+Feature: 23, Score: 0.00695
+Feature: 24, Score: 0.00369
+Feature: 25, Score: 0.00290
+Feature: 26, Score: 0.00330
+Feature: 27, Score: 0.00438
+Feature: 28, Score: 0.00240
+Feature: 29, Score: 0.00284
+Feature: 30, Score: 0.00538
+Feature: 31, Score: 0.00334
+Feature: 32, Score: 0.00002
+Feature: 33, Score: 0.00001
+Feature: 34, Score: 0.00014
+Feature: 35, Score: 0.00003
+Feature: 36, Score: 0.00012
+Feature: 37, Score: 0.00002
+Feature: 38, Score: 0.00358
+Feature: 39, Score: 0.00022
+Feature: 40, Score: 0.00000
+Feature: 41, Score: 0.01711
+Feature: 42, Score: 0.69893
+Feature: 43, Score: 0.00810
+Feature: 44, Score: 0.00232
+Feature: 45, Score: 0.00059
+Feature: 46, Score: 0.00000
+Feature: 47, Score: 0.00013
+Feature: 48, Score: 0.00005
+Feature: 49, Score: 0.00002
+Feature: 50, Score: 0.00530
+Feature: 51, Score: 0.00261
+Feature: 52, Score: 0.09649
+Feature: 53, Score: 0.00325
+Feature: 54, Score: 0.00391
+Feature: 55, Score: 0.00206
+Feature: 56, Score: 0.00133
+Feature: 57, Score: 0.00003
+Feature: 58, Score: 0.00016
+Feature: 59, Score: 0.00133
+Feature: 60, Score: 0.00173
+Feature: 61, Score: 0.00124
+Feature: 62, Score: 0.00127
+Feature: 63, Score: 0.00213
+Feature: 64, Score: 0.00119
+Feature: 65, Score: 0.00253
+Feature: 66, Score: 0.00240
+Feature: 67, Score: 0.00184
+Feature: 68, Score: 0.00664
+Feature: 69, Score: 0.00181
+Feature: 70, Score: 0.00034
+Feature: 71, Score: 0.00290
+Feature: 72, Score: 0.00195
+Feature: 73, Score: 0.00385
+Feature: 74, Score: 0.00296
+Feature: 75, Score: 0.00142
+Feature: 76, Score: 0.00448
+Feature: 77, Score: 0.00148
+Feature: 78, Score: 0.00147
+Feature: 79, Score: 0.00247
+Feature: 80, Score: 0.00156
+Feature: 81, Score: 0.00129
+Feature: 82, Score: 0.00159
+Feature: 83, Score: 0.00445
+Feature: 84, Score: 0.00592
+Feature: 85, Score: 0.00132
+Feature: 86, Score: 0.00304
+Feature: 87, Score: 0.00210
+Feature: 88, Score: 0.00694
+Feature: 89, Score: 0.00226
+Feature: 90, Score: 0.00077
+Feature: 91, Score: 0.00155
+Feature: 92, Score: 0.00191
+Feature: 93, Score: 0.00529
+Feature: 94, Score: 0.00212
+Feature: 95, Score: 0.00210
+Feature: 96, Score: 0.00149
+Feature: 97, Score: 0.00238
+Feature: 98, Score: 0.00119
+Feature: 99, Score: 0.00193
+Feature: 100, Score: 0.00022
+Feature: 101, Score: 0.00468
+Feature: 102, Score: 0.00201
+Feature: 0, Score: 0.00003
+Feature: 1, Score: 0.00014
+Feature: 2, Score: 0.00008
+Feature: 3, Score: 0.00019
+Feature: 4, Score: 0.00006
+Feature: 5, Score: 0.00006
+Feature: 6, Score: 0.00001
+Feature: 7, Score: 0.00004
+Feature: 8, Score: 0.00008
+Feature: 9, Score: 0.00000
+Feature: 10, Score: 0.00004
+Feature: 11, Score: 0.00000
+Feature: 12, Score: 0.00018
+Feature: 13, Score: 0.00019
+Feature: 14, Score: 0.00067
+Feature: 15, Score: 0.00022
+Feature: 16, Score: 0.00045
+Feature: 17, Score: 0.00030
+Feature: 18, Score: 0.00010
+Feature: 19, Score: 0.00043
+Feature: 20, Score: 0.00003
+Feature: 21, Score: 0.00015
+Feature: 22, Score: 0.00711
+Feature: 23, Score: 0.00470
+Feature: 24, Score: 0.00601
+Feature: 25, Score: 0.00244
+Feature: 26, Score: 0.00391
+Feature: 27, Score: 0.00478
+Feature: 28, Score: 0.00444
+Feature: 29, Score: 0.00220
+Feature: 30, Score: 0.00284
+Feature: 31, Score: 0.00284
+Feature: 32, Score: 0.00007
+Feature: 33, Score: 0.00008
+Feature: 34, Score: 0.00013
+Feature: 35, Score: 0.00009
+Feature: 36, Score: 0.00019
+Feature: 37, Score: 0.00022
+Feature: 38, Score: 0.00022
+Feature: 39, Score: 0.00025
+Feature: 40, Score: 0.00005
+Feature: 41, Score: 0.18352
+Feature: 42, Score: 0.31528
+Feature: 43, Score: 0.10841
+Feature: 44, Score: 0.00305
+Feature: 45, Score: 0.00077
+Feature: 46, Score: 0.00000
+Feature: 47, Score: 0.00019
+Feature: 48, Score: 0.00018
+Feature: 49, Score: 0.00032
+Feature: 50, Score: 0.00198
+Feature: 51, Score: 0.00445
+Feature: 52, Score: 0.21158
+Feature: 53, Score: 0.00310
+Feature: 54, Score: 0.00468
+Feature: 55, Score: 0.00342
+Feature: 56, Score: 0.00251
+Feature: 57, Score: 0.00006
+Feature: 58, Score: 0.00019
+Feature: 59, Score: 0.00260
+Feature: 60, Score: 0.00249
+Feature: 61, Score: 0.00293
+Feature: 62, Score: 0.00203
+Feature: 63, Score: 0.00182
+Feature: 64, Score: 0.00222
+Feature: 65, Score: 0.00196
+Feature: 66, Score: 0.00196
+Feature: 67, Score: 0.00183
+Feature: 68, Score: 0.00200
+Feature: 69, Score: 0.00247
+Feature: 70, Score: 0.00175
+Feature: 71, Score: 0.00231
+Feature: 72, Score: 0.00184
+Feature: 73, Score: 0.00302
+Feature: 74, Score: 0.00257
+Feature: 75, Score: 0.00170
+Feature: 76, Score: 0.00345
+Feature: 77, Score: 0.00181
+Feature: 78, Score: 0.00195
+Feature: 79, Score: 0.00293
+Feature: 80, Score: 0.00182
+Feature: 81, Score: 0.00168
+Feature: 82, Score: 0.00236
+Feature: 83, Score: 0.00404
+Feature: 84, Score: 0.00556
+Feature: 85, Score: 0.00403
+Feature: 86, Score: 0.00294
+Feature: 87, Score: 0.00299
+Feature: 88, Score: 0.00424
+Feature: 89, Score: 0.00230
+Feature: 90, Score: 0.00307
+Feature: 91, Score: 0.00309
+Feature: 92, Score: 0.00242
+Feature: 93, Score: 0.00330
+Feature: 94, Score: 0.00251
+Feature: 95, Score: 0.00192
+Feature: 96, Score: 0.00167
+Feature: 97, Score: 0.00217
+Feature: 98, Score: 0.00262
+Feature: 99, Score: 0.00171
+Feature: 100, Score: 0.00026
+Feature: 101, Score: 0.00353
+Feature: 102, Score: 0.00240
+Feature: 0, Score: 0.00095
+Feature: 1, Score: 0.00034
+Feature: 2, Score: 0.00089
+Feature: 3, Score: 0.00203
+Feature: 4, Score: 0.00027
+Feature: 5, Score: 0.00183
+Feature: 6, Score: 0.00056
+Feature: 7, Score: 0.00020
+Feature: 8, Score: 0.00063
+Feature: 9, Score: 0.00000
+Feature: 10, Score: 0.00058
+Feature: 11, Score: 0.00000
+Feature: 12, Score: 0.00038
+Feature: 13, Score: 0.00000
+Feature: 14, Score: 0.00044
+Feature: 15, Score: 0.00065
+Feature: 16, Score: 0.00043
+Feature: 17, Score: 0.00059
+Feature: 18, Score: 0.00028
+Feature: 19, Score: 0.00510
+Feature: 20, Score: 0.00000
+Feature: 21, Score: 0.00162
+Feature: 22, Score: 0.00295
+Feature: 23, Score: 0.00228
+Feature: 24, Score: 0.00325
+Feature: 25, Score: 0.00150
+Feature: 26, Score: 0.00314
+Feature: 27, Score: 0.00262
+Feature: 28, Score: 0.00454
+Feature: 29, Score: 0.01006
+Feature: 30, Score: 0.00799
+Feature: 31, Score: 0.00645
+Feature: 32, Score: 0.00326
+Feature: 33, Score: 0.00000
+Feature: 34, Score: 0.00309
+Feature: 35, Score: 0.00115
+Feature: 36, Score: 0.00340
+Feature: 37, Score: 0.02238
+Feature: 38, Score: 0.00000
+Feature: 39, Score: 0.00168
+Feature: 40, Score: 0.00000
+Feature: 41, Score: 0.01567
+Feature: 42, Score: 0.31595
+Feature: 43, Score: 0.06737
+Feature: 44, Score: 0.00196
+Feature: 45, Score: 0.00253
+Feature: 46, Score: 0.00000
+Feature: 47, Score: 0.00211
+Feature: 48, Score: 0.00000
+Feature: 49, Score: 0.00360
+Feature: 50, Score: 0.00192
+Feature: 51, Score: 0.00291
+Feature: 52, Score: 0.30802
+Feature: 53, Score: 0.00871
+Feature: 54, Score: 0.00678
+Feature: 55, Score: 0.00638
+Feature: 56, Score: 0.00273
+Feature: 57, Score: 0.00000
+Feature: 58, Score: 0.00419
+Feature: 59, Score: 0.00307
+Feature: 60, Score: 0.00445
+Feature: 61, Score: 0.00344
+Feature: 62, Score: 0.00227
+Feature: 63, Score: 0.00362
+Feature: 64, Score: 0.00468
+Feature: 65, Score: 0.00374
+Feature: 66, Score: 0.00408
+Feature: 67, Score: 0.00421
+Feature: 68, Score: 0.00800
+Feature: 69, Score: 0.00296
+Feature: 70, Score: 0.00157
+Feature: 71, Score: 0.00364
+Feature: 72, Score: 0.00299
+Feature: 73, Score: 0.00333
+Feature: 74, Score: 0.00385
+Feature: 75, Score: 0.00216
+Feature: 76, Score: 0.00367
+Feature: 77, Score: 0.00241
+Feature: 78, Score: 0.00285
+Feature: 79, Score: 0.00499
+Feature: 80, Score: 0.00348
+Feature: 81, Score: 0.00344
+Feature: 82, Score: 0.00178
+Feature: 83, Score: 0.00338
+Feature: 84, Score: 0.00481
+Feature: 85, Score: 0.00556
+Feature: 86, Score: 0.00213
+Feature: 87, Score: 0.00177
+Feature: 88, Score: 0.00507
+Feature: 89, Score: 0.00272
+Feature: 90, Score: 0.00456
+Feature: 91, Score: 0.00202
+Feature: 92, Score: 0.00347
+Feature: 93, Score: 0.00296
+Feature: 94, Score: 0.00110
+Feature: 95, Score: 0.00234
+Feature: 96, Score: 0.00389
+Feature: 97, Score: 0.00315
+Feature: 98, Score: 0.00337
+Feature: 99, Score: 0.00210
+Feature: 100, Score: 0.00596
+Feature: 101, Score: 0.00291
+Feature: 102, Score: 0.00369
+Feature: 0, Score: 0.00000
+Feature: 1, Score: 0.00000
+Feature: 2, Score: 0.00000
+Feature: 3, Score: 0.00000
+Feature: 4, Score: 0.00000
+Feature: 5, Score: 0.00005
+Feature: 6, Score: 0.00000
+Feature: 7, Score: 0.00000
+Feature: 8, Score: 0.00000
+Feature: 9, Score: 0.00000
+Feature: 10, Score: 0.00000
+Feature: 11, Score: 0.00000
+Feature: 12, Score: 0.00000
+Feature: 13, Score: 0.00000
+Feature: 14, Score: 0.00000
+Feature: 15, Score: 0.00000
+Feature: 16, Score: 0.00000
+Feature: 17, Score: 0.00001
+Feature: 18, Score: 0.00000
+Feature: 19, Score: 0.00000
+Feature: 20, Score: 0.00000
+Feature: 21, Score: 0.00006
+Feature: 22, Score: 0.00336
+Feature: 23, Score: 0.00070
+Feature: 24, Score: 0.00090
+Feature: 25, Score: 0.00148
+Feature: 26, Score: 0.00262
+Feature: 27, Score: 0.00269
+Feature: 28, Score: 0.00233
+Feature: 29, Score: 0.00046
+Feature: 30, Score: 0.00110
+Feature: 31, Score: 0.00000
+Feature: 32, Score: 0.00000
+Feature: 33, Score: 0.00000
+Feature: 34, Score: 0.00000
+Feature: 35, Score: 0.00045
+Feature: 36, Score: 0.00000
+Feature: 37, Score: 0.00000
+Feature: 38, Score: 0.00000
+Feature: 39, Score: 0.00000
+Feature: 40, Score: 0.00000
+Feature: 41, Score: 0.26880
+Feature: 42, Score: 0.30458
+Feature: 43, Score: 0.04662
+Feature: 44, Score: 0.00334
+Feature: 45, Score: 0.00000
+Feature: 46, Score: 0.00000
+Feature: 47, Score: 0.00000
+Feature: 48, Score: 0.00000
+Feature: 49, Score: 0.00000
+Feature: 50, Score: 0.00016
+Feature: 51, Score: 0.00151
+Feature: 52, Score: 0.32309
+Feature: 53, Score: 0.00031
+Feature: 54, Score: 0.00287
+Feature: 55, Score: 0.00102
+Feature: 56, Score: 0.00038
+Feature: 57, Score: 0.00000
+Feature: 58, Score: 0.00000
+Feature: 59, Score: 0.00076
+Feature: 60, Score: 0.00002
+Feature: 61, Score: 0.00001
+Feature: 62, Score: 0.00007
+Feature: 63, Score: 0.00005
+Feature: 64, Score: 0.00040
+Feature: 65, Score: 0.00000
+Feature: 66, Score: 0.00000
+Feature: 67, Score: 0.00009
+Feature: 68, Score: 0.00042
+Feature: 69, Score: 0.00000
+Feature: 70, Score: 0.00007
+Feature: 71, Score: 0.00007
+Feature: 72, Score: 0.00174
+Feature: 73, Score: 0.00095
+Feature: 74, Score: 0.00088
+Feature: 75, Score: 0.00084
+Feature: 76, Score: 0.00087
+Feature: 77, Score: 0.00036
+Feature: 78, Score: 0.00020
+Feature: 79, Score: 0.00160
+Feature: 80, Score: 0.00049
+Feature: 81, Score: 0.00127
+Feature: 82, Score: 0.00029
+Feature: 83, Score: 0.00039
+Feature: 84, Score: 0.00415
+Feature: 85, Score: 0.00156
+Feature: 86, Score: 0.00068
+Feature: 87, Score: 0.00061
+Feature: 88, Score: 0.00123
+Feature: 89, Score: 0.00005
+Feature: 90, Score: 0.00186
+Feature: 91, Score: 0.00011
+Feature: 92, Score: 0.00043
+Feature: 93, Score: 0.00229
+Feature: 94, Score: 0.00034
+Feature: 95, Score: 0.00008
+Feature: 96, Score: 0.00000
+Feature: 97, Score: 0.00037
+Feature: 98, Score: 0.00120
+Feature: 99, Score: 0.00000
+Feature: 100, Score: 0.00000
+Feature: 101, Score: 0.00298
+Feature: 102, Score: 0.00133
+Feature: 0, Score: -5.41330
+Feature: 1, Score: 0.71083
+Feature: 2, Score: 1.09790
+Feature: 3, Score: -2.08638
+Feature: 4, Score: 1.26557
+Feature: 5, Score: 2.35789
+Feature: 6, Score: -4.14984
+Feature: 7, Score: -2.74039
+Feature: 8, Score: -1.33824
+Feature: 9, Score: -47.83262
+Feature: 10, Score: 1.35831
+Feature: 11, Score: -3.44874
+Feature: 12, Score: 3.57337
+Feature: 13, Score: 1.09790
+Feature: 14, Score: 3.38219
+Feature: 15, Score: -0.99556
+Feature: 16, Score: 0.82502
+Feature: 17, Score: -3.15359
+Feature: 18, Score: 1.92749
+Feature: 19, Score: -2.26502
+Feature: 20, Score: -1.10532
+Feature: 21, Score: 0.14310
+Feature: 22, Score: 4.36604
+Feature: 23, Score: -2.84874
+Feature: 24, Score: 2.61312
+Feature: 25, Score: 2.65714
+Feature: 26, Score: 0.10034
+Feature: 27, Score: -3.16838
+Feature: 28, Score: -29.32169
+Feature: 29, Score: 2.10624
+Feature: 30, Score: 0.10967
+Feature: 31, Score: -41.15631
+Feature: 32, Score: -1.62435
+Feature: 33, Score: -1.62435
+Feature: 34, Score: 0.32186
+Feature: 35, Score: -3.97606
+Feature: 36, Score: 3.70995
+Feature: 37, Score: -0.26377
+Feature: 38, Score: 0.26377
+Feature: 39, Score: -2.35208
+Feature: 40, Score: -0.69527
+Feature: 41, Score: 0.12224
+Feature: 42, Score: 0.44448
+Feature: 43, Score: -0.32676
+Feature: 44, Score: 2.33822
+Feature: 45, Score: -1.91486
+Feature: 46, Score: -45.68563
+Feature: 47, Score: -4.45620
+Feature: 48, Score: 7.24762
+Feature: 49, Score: 1.35908
+Feature: 50, Score: -4.61369
+Feature: 51, Score: -5.53907
+Feature: 52, Score: 0.93654
+Feature: 53, Score: -2.02693
+Feature: 54, Score: -18.53868
+Feature: 55, Score: 11.83657
+Feature: 56, Score: 13.00372
+Feature: 57, Score: -1.07187
+Feature: 58, Score: 2.52629
+Feature: 59, Score: -23.49239
+Feature: 60, Score: -13.73632
+Feature: 61, Score: -8.34236
+Feature: 62, Score: 3.90636
+Feature: 63, Score: 3.75840
+Feature: 64, Score: 3.69099
+Feature: 65, Score: -17.33093
+Feature: 66, Score: -11.67422
+Feature: 67, Score: -2.00382
+Feature: 68, Score: -14.70062
+Feature: 69, Score: -11.10330
+Feature: 70, Score: -3.73282
+Feature: 71, Score: -10.56350
+Feature: 72, Score: -4.63984
+Feature: 73, Score: -19.59867
+Feature: 74, Score: -2.06045
+Feature: 75, Score: -2.25850
+Feature: 76, Score: -1.13358
+Feature: 77, Score: -1.27845
+Feature: 78, Score: -1.61884
+Feature: 79, Score: -7.54905
+Feature: 80, Score: -0.72668
+Feature: 81, Score: -0.53899
+Feature: 82, Score: -13.00619
+Feature: 83, Score: -0.92860
+Feature: 84, Score: 4.95020
+Feature: 85, Score: -3.15832
+Feature: 86, Score: 0.26122
+Feature: 87, Score: -0.96155
+Feature: 88, Score: 0.92165
+Feature: 89, Score: -2.44060
+Feature: 90, Score: 0.22914
+Feature: 91, Score: -0.98884
+Feature: 92, Score: -3.02366
+Feature: 93, Score: 1.08670
+Feature: 94, Score: 1.41432
+Feature: 95, Score: -1.02204
+Feature: 96, Score: -1.48553
+Feature: 97, Score: -6.04717
+Feature: 98, Score: -0.19862
+Feature: 99, Score: -1.84568
+Feature: 100, Score: 0.17693
+Feature: 101, Score: -0.81965
+Feature: 102, Score: 0.54574
+Feature: 0, Score: 0.00000
+Feature: 1, Score: 0.00000
+Feature: 2, Score: 0.00000
+Feature: 3, Score: 0.00000
+Feature: 4, Score: 0.00000
+Feature: 5, Score: 0.00000
+Feature: 6, Score: 0.00000
+Feature: 7, Score: 0.00000
+Feature: 8, Score: 0.00000
+Feature: 9, Score: 0.00000
+Feature: 10, Score: 0.00000
+Feature: 11, Score: 0.00000
+Feature: 12, Score: 0.00000
+Feature: 13, Score: 0.00000
+Feature: 14, Score: 0.00000
+Feature: 15, Score: 0.00000
+Feature: 16, Score: 0.00000
+Feature: 17, Score: 0.00000
+Feature: 18, Score: 0.00000
+Feature: 19, Score: 0.00000
+Feature: 20, Score: 0.00000
+Feature: 21, Score: 0.00000
+Feature: 22, Score: 0.01471
+Feature: 23, Score: 0.00038
+Feature: 24, Score: 0.00000
+Feature: 25, Score: 0.00303
+Feature: 26, Score: 0.00130
+Feature: 27, Score: 0.03460
+Feature: 28, Score: 0.05450
+Feature: 29, Score: 0.00597
+Feature: 30, Score: 0.00000
+Feature: 31, Score: 0.00000
+Feature: 32, Score: 0.00000
+Feature: 33, Score: 0.00000
+Feature: 34, Score: 0.00000
+Feature: 35, Score: 0.00051
+Feature: 36, Score: 0.00000
+Feature: 37, Score: 0.00000
+Feature: 38, Score: 0.00000
+Feature: 39, Score: 0.00000
+Feature: 40, Score: 0.00000
+Feature: 41, Score: 0.06739
+Feature: 42, Score: 0.31881
+Feature: 43, Score: 0.06473
+Feature: 44, Score: 0.05704
+Feature: 45, Score: 0.00000
+Feature: 46, Score: 0.00000
+Feature: 47, Score: 0.00000
+Feature: 48, Score: 0.00000
+Feature: 49, Score: 0.00000
+Feature: 50, Score: 0.00524
+Feature: 51, Score: 0.00426
+Feature: 52, Score: 0.14117
+Feature: 53, Score: 0.00346
+Feature: 54, Score: 0.01458
+Feature: 55, Score: 0.00000
+Feature: 56, Score: 0.00000
+Feature: 57, Score: 0.00000
+Feature: 58, Score: 0.00000
+Feature: 59, Score: 0.00454
+Feature: 60, Score: 0.00000
+Feature: 61, Score: 0.00000
+Feature: 62, Score: 0.00100
+Feature: 63, Score: 0.00000
+Feature: 64, Score: 0.00000
+Feature: 65, Score: 0.00000
+Feature: 66, Score: 0.00000
+Feature: 67, Score: 0.00841
+Feature: 68, Score: 0.02819
+Feature: 69, Score: 0.00000
+Feature: 70, Score: 0.00559
+Feature: 71, Score: 0.00000
+Feature: 72, Score: 0.00000
+Feature: 73, Score: 0.00430
+Feature: 74, Score: 0.01157
+Feature: 75, Score: 0.00000
+Feature: 76, Score: 0.01436
+Feature: 77, Score: 0.00115
+Feature: 78, Score: 0.00000
+Feature: 79, Score: 0.06919
+Feature: 80, Score: 0.00000
+Feature: 81, Score: 0.00000
+Feature: 82, Score: 0.00176
+Feature: 83, Score: 0.01452
+Feature: 84, Score: 0.00266
+Feature: 85, Score: 0.00938
+Feature: 86, Score: 0.00521
+Feature: 87, Score: 0.00000
+Feature: 88, Score: 0.00660
+Feature: 89, Score: 0.00000
+Feature: 90, Score: 0.00064
+Feature: 91, Score: 0.00814
+Feature: 92, Score: 0.00000
+Feature: 93, Score: 0.00000
+Feature: 94, Score: 0.00000
+Feature: 95, Score: 0.00000
+Feature: 96, Score: 0.00000
+Feature: 97, Score: 0.00227
+Feature: 98, Score: 0.00000
+Feature: 99, Score: 0.00136
+Feature: 100, Score: 0.00000
+Feature: 101, Score: 0.00748
+Feature: 102, Score: 0.00000
+RandomForestRegressor traning and evaluation
+Variance score for full features: 0.80
+Variance score for top features: 0.79
+LinearRegression traning and evaluation
+Variance score for full features: 0.77
+Variance score for top features: 0.14
+DecisionTreeRegressor traning and evaluation
+Variance score for full features: 0.56
+Variance score for top features: 0.63
+XGBRegressor traning and evaluation
+Variance score for full features: 0.79
+Variance score for top features: 0.77
+Column: 0, Selected False, Rank: 51.000
+Column: 1, Selected False, Rank: 20.000
+Column: 2, Selected False, Rank: 41.000
+Column: 3, Selected False, Rank: 21.000
+Column: 4, Selected False, Rank: 23.000
+Column: 5, Selected True, Rank: 1.000
+Column: 6, Selected False, Rank: 46.000
+Column: 7, Selected False, Rank: 30.000
+Column: 8, Selected False, Rank: 4.000
+Column: 9, Selected False, Rank: 26.000
+Column: 10, Selected False, Rank: 11.000
+Column: 11, Selected False, Rank: 47.000
+Column: 12, Selected True, Rank: 1.000
+Column: 13, Selected False, Rank: 6.000
+Column: 14, Selected False, Rank: 48.000
+Column: 15, Selected False, Rank: 32.000
+Column: 16, Selected False, Rank: 8.000
+Column: 17, Selected False, Rank: 55.000
+Column: 18, Selected False, Rank: 58.000
+Column: 19, Selected True, Rank: 1.000
+Column: 20, Selected False, Rank: 19.000
+Column: 21, Selected False, Rank: 36.000
+Column: 22, Selected False, Rank: 14.000
+Column: 23, Selected False, Rank: 18.000
+Column: 24, Selected False, Rank: 3.000
+Column: 25, Selected False, Rank: 31.000
+Column: 26, Selected False, Rank: 24.000
+Column: 27, Selected False, Rank: 17.000
+Column: 28, Selected False, Rank: 53.000
+Column: 29, Selected False, Rank: 92.000
+Column: 30, Selected False, Rank: 93.000
+Column: 31, Selected False, Rank: 91.000
+Column: 32, Selected False, Rank: 77.000
+Column: 33, Selected False, Rank: 89.000
+Column: 34, Selected False, Rank: 96.000
+Column: 35, Selected False, Rank: 83.000
+Column: 36, Selected False, Rank: 94.000
+Column: 37, Selected False, Rank: 68.000
+Column: 38, Selected False, Rank: 59.000
+Column: 39, Selected False, Rank: 90.000
+Column: 40, Selected False, Rank: 66.000
+Column: 41, Selected False, Rank: 63.000
+Column: 42, Selected False, Rank: 87.000
+Column: 43, Selected False, Rank: 74.000
+Column: 44, Selected False, Rank: 78.000
+Column: 45, Selected False, Rank: 84.000
+Column: 46, Selected False, Rank: 88.000
+Column: 47, Selected False, Rank: 80.000
+Column: 48, Selected False, Rank: 75.000
+Column: 49, Selected False, Rank: 79.000
+Column: 50, Selected False, Rank: 81.000
+Column: 51, Selected False, Rank: 13.000
+Column: 52, Selected False, Rank: 10.000
+Column: 53, Selected False, Rank: 7.000
+Column: 54, Selected False, Rank: 34.000
+Column: 55, Selected False, Rank: 38.000
+Column: 56, Selected False, Rank: 12.000
+Column: 57, Selected False, Rank: 27.000
+Column: 58, Selected False, Rank: 5.000
+Column: 59, Selected False, Rank: 15.000
+Column: 60, Selected True, Rank: 1.000
+Column: 61, Selected True, Rank: 1.000
+Column: 62, Selected True, Rank: 1.000
+Column: 63, Selected False, Rank: 2.000
+Column: 64, Selected True, Rank: 1.000
+Column: 65, Selected True, Rank: 1.000
+Column: 66, Selected False, Rank: 29.000
+Column: 67, Selected False, Rank: 50.000
+Column: 68, Selected False, Rank: 35.000
+Column: 69, Selected False, Rank: 43.000
+Column: 70, Selected False, Rank: 28.000
+Column: 71, Selected False, Rank: 25.000
+Column: 72, Selected False, Rank: 56.000
+Column: 73, Selected False, Rank: 22.000
+Column: 74, Selected False, Rank: 37.000
+Column: 75, Selected False, Rank: 45.000
+Column: 76, Selected False, Rank: 9.000
+Column: 77, Selected False, Rank: 52.000
+Column: 78, Selected False, Rank: 54.000
+Column: 79, Selected False, Rank: 33.000
+Column: 80, Selected False, Rank: 44.000
+Column: 81, Selected True, Rank: 1.000
+Column: 82, Selected False, Rank: 40.000
+Column: 83, Selected False, Rank: 49.000
+Column: 84, Selected False, Rank: 42.000
+Column: 85, Selected False, Rank: 60.000
+Column: 86, Selected False, Rank: 39.000
+Column: 87, Selected False, Rank: 16.000
+Column: 88, Selected False, Rank: 95.000
+Column: 89, Selected False, Rank: 71.000
+Column: 90, Selected False, Rank: 70.000
+Column: 91, Selected False, Rank: 85.000
+Column: 92, Selected False, Rank: 72.000
+Column: 93, Selected False, Rank: 82.000
+Column: 94, Selected False, Rank: 73.000
+Column: 95, Selected False, Rank: 76.000
+Column: 96, Selected False, Rank: 61.000
+Column: 97, Selected False, Rank: 69.000
+Column: 98, Selected False, Rank: 62.000
+Column: 99, Selected False, Rank: 65.000
+Column: 100, Selected False, Rank: 86.000
+Column: 101, Selected False, Rank: 64.000
+Column: 102, Selected False, Rank: 67.000
+Column: 103, Selected False, Rank: 57.000
+[False False False False False  True False False False False False False
+  True False False False False False False  True False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+ False False False False False False False False False False False False
+  True  True  True False  True  True False False False False False False
+ False False False False False False False False False  True False False
+ False False False False False False False False False False False False
+ False False False False False False False False]
+[51 20 41 21 23  1 46 30  4 26 11 47  1  6 48 32  8 55 58  1 19 36 14 18
+  3 31 24 17 53 92 93 91 77 89 96 83 94 68 59 90 66 63 87 74 78 84 88 80
+ 75 79 81 13 10  7 34 38 12 27  5 15  1  1  1  2  1  1 29 50 35 43 28 25
+ 56 22 37 45  9 52 54 33 44  1 40 49 42 60 39 16 95 71 70 85 72 82 73 76
+ 61 69 62 65 86 64 67 57]
+evaluate RFE for regression
+MAE: -22894.632 (817.865)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+/scratch/krm7/miniconda3/lib/python3.7/site-packages/sklearn/utils/validation.py:760: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
